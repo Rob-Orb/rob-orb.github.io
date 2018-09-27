@@ -12,3 +12,17 @@ MD5sum: 046676ff939b184db804283e3f71016b
 Description: Pic Programmer on Raspberry Pi 
  This binary gives your the power to program a Microchip PIC
 
+Package: ros-kinetic-base
+Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
+Architecture: armhf
+Version: 0.0.1
+Priority: optional
+Section: devel
+Filename: pool/main/r/ros-kinetic-base/ros-kinetic-base_0.0.1_armhf.deb
+Size: 5491556
+SHA256: 05b3eabed94f89ab0898341ba1d277dd92cffe1d1c643cc994a862f9643324f8
+SHA1: 5753551e424d743ab19312720369a7b1078fb9ed
+MD5sum: 4fc084cda560e6117456660526ee8c40
+Description: ROS base package for Raspberry Pi Zero W
+Pre-Depends: dirmngr, python-rosdep, python-rosinstall-generator, python-wstool, python-rosinstall, build-essential, cmake, libcollada-dom-dev, git
+
