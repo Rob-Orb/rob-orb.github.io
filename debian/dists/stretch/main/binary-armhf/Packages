@@ -16,14 +16,14 @@ Description: Pic Programmer on Raspberry Pi
 Package: ros-kinetic-bare
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Architecture: armhf
-Version: 0.0.2
+Version: 0.0.3
 Priority: optional
 Section: devel
-Filename: pool/main/r/ros-kinetic-bare/ros-kinetic-bare_0.0.2_armhf.deb
-Size: 5492402
-SHA256: ad5ddcbdf2d09a325167118140b4837c48b6bfc418b8e4e8469c80e3d90a58c5
-SHA1: 158509cc12576c539a73c48493a4ed939df57f15
-MD5sum: 8b7d85c3af8b2c7fdbe7c047734f106d
+Filename: pool/main/r/ros-kinetic-bare/ros-kinetic-bare_0.0.3_armhf.deb
+Size: 5492388
+SHA256: e0aecd2ac91c5998e5a3e0692656f12b382bc1d02263650257fbcbc41cee2fbe
+SHA1: db660718b0dc44ecc409510db5e224a989114f3a
+MD5sum: 7c10e4324fca556bd25c36874f6cdc4d
 Description: ROS base package for Raspberry Pi Zero W
 Pre-Depends: dirmngr, python-rosdep, python-rosinstall-generator, python-wstool, python-rosinstall, build-essential, cmake, libcollada-dom-dev, git
 
