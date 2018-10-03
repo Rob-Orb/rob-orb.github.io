@@ -1,28 +1,29 @@
 Package: picberry
-Version: 1.0.r
+Version: 1.1.r
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
+Installed-Size: 125
 Priority: optional
 Section: base
-Filename: pool/main/p/picberry/picberry_1.0.r_armhf.deb
-Size: 36320
-SHA256: 852a146a83a1c9e23de6323190c2d782941718a0136d252507b6c5432142a23f
-SHA1: 866fbac4999570c4f8c2398e48eee648ba63903d
-MD5sum: bd5807de4efaf74be041878038956a09
-Description: Pic Programmer on Raspberry Pi 
+Filename: pool/main/p/picberry/picberry_1.1.r_armhf.deb
+Size: 36630
+SHA256: 83085bc3de752d95e12732762e11d0909638a321e615891179808db2f601459e
+SHA1: c97ec12acf152e3c0e41c7af7748893a4736d82f
+MD5sum: a8be95707ff9ad28ca9b9403ea4745ae
+Description: Pic Programmer on Raspberry Pi
  This binary gives your the power to program a Microchip PIC
 
-Package: ros-kinetic-base
+Package: ros-kinetic-bare
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Architecture: armhf
-Version: 0.0.1
+Version: 0.0.2
 Priority: optional
 Section: devel
-Filename: pool/main/r/ros-kinetic-base/ros-kinetic-base_0.0.1_armhf.deb
-Size: 5491556
-SHA256: 05b3eabed94f89ab0898341ba1d277dd92cffe1d1c643cc994a862f9643324f8
-SHA1: 5753551e424d743ab19312720369a7b1078fb9ed
-MD5sum: 4fc084cda560e6117456660526ee8c40
+Filename: pool/main/r/ros-kinetic-bare/ros-kinetic-bare_0.0.2_armhf.deb
+Size: 5492402
+SHA256: ad5ddcbdf2d09a325167118140b4837c48b6bfc418b8e4e8469c80e3d90a58c5
+SHA1: 158509cc12576c539a73c48493a4ed939df57f15
+MD5sum: 8b7d85c3af8b2c7fdbe7c047734f106d
 Description: ROS base package for Raspberry Pi Zero W
 Pre-Depends: dirmngr, python-rosdep, python-rosinstall-generator, python-wstool, python-rosinstall, build-essential, cmake, libcollada-dom-dev, git
 
