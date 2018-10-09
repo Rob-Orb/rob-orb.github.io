@@ -1,5 +1,5 @@
 Component: main
-Origin: rob-orb.github.io/repo
-Label: rob-orb.github.io/repo
+Origin: rob-orb.github.io/debian
+Label: rob-orb.github.io/debian
 Architecture: armhf
 Description: Robot-Orb Repository

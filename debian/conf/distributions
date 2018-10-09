@@ -1,7 +1,7 @@
-Origin: rob-orb.github.io/repo
-Label: rob-orb.github.io/repo
+Origin: rob-orb.github.io/debian
+Label: rob-orb.github.io/debian
 Codename: stretch
 Architectures: armhf
 Components: main
 Description: Robot-Orb Repository
-SignWith: 672CC004 
+SignWith: C6520BD8 

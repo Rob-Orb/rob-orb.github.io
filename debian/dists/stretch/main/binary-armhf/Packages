@@ -1,18 +1,3 @@
-Package: picberry
-Version: 2.0.0
-Architecture: armhf
-Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
-Installed-Size: 7
-Priority: optional
-Section: base
-Filename: pool/main/p/picberry/picberry_2.0.0_armhf.deb
-Size: 1078
-SHA256: bb41a84e861464e99802a4a475901c828800dd69327a999d7c7eb4be76b0b5da
-SHA1: 639db1cbf080490ae57dfad9962bd97e34418b19
-MD5sum: c17b4e5018790f59ef4e105501ba38ce
-Description: Pic Programmer on Raspberry Pi
- This binary gives your the power to program a Microchip PIC
-
 Package: ros-kinetic-bare
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Architecture: armhf
