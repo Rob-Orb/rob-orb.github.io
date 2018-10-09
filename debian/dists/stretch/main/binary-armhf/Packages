@@ -1,15 +1,15 @@
 Package: picberry
-Version: 2.0.0
+Version: 2.0.2
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Installed-Size: 7
 Priority: optional
 Section: base
-Filename: pool/main/p/picberry/picberry_2.0.0_armhf.deb
+Filename: pool/main/p/picberry/picberry_2.0.2_armhf.deb
 Size: 1078
-SHA256: bb41a84e861464e99802a4a475901c828800dd69327a999d7c7eb4be76b0b5da
-SHA1: 639db1cbf080490ae57dfad9962bd97e34418b19
-MD5sum: c17b4e5018790f59ef4e105501ba38ce
+SHA256: 07765cc17bab8c73afe4eb544067ad8f202f036d4f949f5c0d48b56a0c83b1a8
+SHA1: e2f79ebc64089576ae03cfc342b7da0b111ec151
+MD5sum: 82bf78745b8355e15389c654fa6ce63a
 Description: Pic Programmer on Raspberry Pi
  This binary gives your the power to program a Microchip PIC
 
