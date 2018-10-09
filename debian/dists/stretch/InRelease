@@ -1,10 +1,10 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
+Hash: SHA256
 
 Origin: rob-orb.github.io/debian
 Label: rob-orb.github.io/debian
 Codename: stretch
-Date: Tue, 09 Oct 2018 11:02:20 UTC
+Date: Tue, 09 Oct 2018 15:37:48 UTC
 Architectures: armhf
 Components: main
 Description: Robot-Orb Repository
@@ -21,13 +21,13 @@ SHA256:
  3c949d235455b57047dc4f13af40888244b4f6160e823107504bc8ed8a4a1009 626 main/binary-armhf/Packages.gz
  39b7e1b47d48fb5d976a7799a39010d68a2c8c207147c4694c6876e0e5d642f4 135 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v2.0.22 (GNU/Linux)
+Version: GnuPG v2
 
-iQEcBAEBAgAGBQJbvIq8AAoJEBmqsSq21h6UNFAIALiTMyt6WxeGiafwgfB9zB68
-RtznIIQnuMy5FWOKq2Q8Gkg66AMANC9rYajS566WiQ3oIybE9hUNcA66xwbvEE1n
-fRXaBKa0PY00NHxPSPoo6qMTTh/iOIzg+GZHLzvkNnpxUvSZI0B6Ngxy8mcoQz+6
-0KQanOElwUd1E/f14HH8AnCHotS/jexW/EFMq+8mpx9FiPkwPJVZb2EzA0tZq396
-9beGfww6P6bi4JkH3R6u/zntiOsUTqABjSPdUuJNSgwz0kLqRdIGehZgOFNW7WHd
-KfcDXrSlGUlAMznac0qlVlqhwqnUCloPlBVlydd8UyD/jCyQh27xwgADEua0MKI=
-=Sggr
+iQEcBAEBCAAGBQJbvMtNAAoJEBmqsSq21h6UL5wIALV9K9lhlEkMUt65jaGY5bhM
+um3AYpa8VOdqZEJ4izhfWHB3WyPvQYxu0zxsEgQaYntrkf/Vk9H4DEJiIuP/oF5p
+P+eXc7pDDvt7CoOfH/FfPRS0VC4GRjcYuJUo+T7SfkEvWPZ2jINHjqoQJaP/uf7u
+GlWurIKiFlaPSh0K0jbuoxmAQs1sQ+/JtmwvMgWvUJqAdWq5PZ+MCdE0BgjoNrv1
+XnMTQwmUpGDYzd78TRR8cPOTQgrIssjfkwPjM99XbL4y6FvvgJ6O1zWu/Vax1iLT
+G4B8gqOul0bzwSHaHGtzpxbMkGjJ6AGp5HYgDxKoXK7d43PzoEJlblEUbjaW7Iw=
+=csOc
 -----END PGP SIGNATURE-----
