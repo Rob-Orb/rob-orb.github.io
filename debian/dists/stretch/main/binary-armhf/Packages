@@ -15,6 +15,23 @@ MD5sum: 485902941ff7c1152ecf17ec1339babf
 Description: Pic Programmer on Raspberry Pi
  This binary gives your the power to program a Microchip PIC
 
+Package: python-catkin-pkg
+Version: 0.4.8-100
+Architecture: all
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 26
+Depends: python (>= 2.7), python (<< 2.8), python-docutils, python-dateutil, python-pyparsing, python-argparse, python-catkin-pkg-modules (>= 0.4.8)
+Conflicts: catkin, python3-catkin-pkg
+Priority: optional
+Section: python
+Filename: pool/main/p/python-catkin-pkg/python-catkin-pkg_0.4.8-100_all.deb
+Size: 3442
+SHA256: 852615c64b42f3c1f90d0e78ebdecd9f035c36418006e61430ed16dc6a1b9aad
+SHA1: 8ecac093bebcd01d12df572cc187b7611cd2e54b
+MD5sum: a3783dea08131ae65f5ffe881f6699a5
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+
 Package: ros-kinetic-bare
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Architecture: armhf
