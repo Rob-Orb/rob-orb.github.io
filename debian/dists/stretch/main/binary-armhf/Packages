@@ -32,6 +32,24 @@ MD5sum: a3783dea08131ae65f5ffe881f6699a5
 Description: catkin package library
  Library for retrieving information about catkin packages.
 
+Package: python-catkin-pkg-modules
+Version: 0.4.8-1
+Architecture: all
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 243
+Depends: python (>= 2.7), python (<< 2.8), python-docutils, python-dateutil, python-pyparsing, python-argparse
+Conflicts: catkin, python-catkin-pkg (<< 0.3.0)
+Replaces: python-catkin-pkg (<< 0.3.0)
+Priority: optional
+Section: python
+Filename: pool/main/p/python-catkin-pkg-modules/python-catkin-pkg-modules_0.4.8-1_all.deb
+Size: 41016
+SHA256: fc647a7b4b2493ce9ba94f50c12de152a314a876372f546eb5b3279e820f7007
+SHA1: c58474c7b5069eb9def43ce45a67ccc88011fd2f
+MD5sum: 4c0588cb96397971b20b0d2b2b543515
+Description: catkin package library
+ Library for retrieving information about catkin packages.
+
 Package: ros-kinetic-bare
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Architecture: armhf
