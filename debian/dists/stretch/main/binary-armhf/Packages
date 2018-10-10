@@ -29,3 +29,19 @@ MD5sum: 36dcb9c621202562be5f4d56ff247ff6
 Description: ROS base package for Raspberry Pi Zero W
 Pre-Depends: dirmngr, python-rosdep, python-rosinstall-generator, python-wstool, python-rosinstall, build-essential, cmake, libcollada-dom-dev, git
 
+Package: ros-kinetic-catkin
+Version: 0.7.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 602
+Depends: cmake, google-mock, libgtest-dev, libpython2.7-stdlib, python-catkin-pkg (>> 0.4.3), python-empy, python-nose
+Homepage: http://www.ros.org/wiki/catkin
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-catkin/ros-kinetic-catkin_0.7.14-0stretch_armhf.deb
+Size: 121232
+SHA256: d133772b4a2fd69ca3fb606a0429012a60d62489c798e5a917dc83503f2a8a74
+SHA1: 56ece5358b288b03ce6e401d12effc690089c433
+MD5sum: cb92939e88111c3b7ef7333b89bc0ee7
+Description: Low-level build system macros and infrastructure for ROS.
+
