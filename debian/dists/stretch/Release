@@ -1,19 +1,29 @@
 Origin: rob-orb.github.io/debian
 Label: rob-orb.github.io/debian
+Suite: stable
 Codename: stretch
-Date: Tue, 09 Oct 2018 16:25:06 UTC
+Date: Wed, 10 Oct 2018 13:19:58 UTC
 Architectures: armhf
 Components: main
 Description: Robot-Orb Repository
 MD5Sum:
- 8017f45be3a104fcd938ed1d413c3c67 1091 main/binary-armhf/Packages
- 863c8f49164eaa86f2ac323b787e18b1 626 main/binary-armhf/Packages.gz
+ 62cff4d787351448899d8b6b00d38d58 1201 main/binary-armhf/Packages
+ 2206b0e14418a1e3aff615defc1ce58b 700 main/binary-armhf/Packages.gz
  d048d77be1002a148cc2f2c4072a1eee 135 main/binary-armhf/Release
+ 4fbce45e6f349685fd2e8cadaac064fe 1119 main/source/Sources
+ 697c88d12d10097a6f4329e9848648be 620 main/source/Sources.gz
+ 231f5ceb2167f331d29c6d351fb62b6c 152 main/source/Release
 SHA1:
- 8830c4c8eaa81887805f4809f1fa359f9a76f6ba 1091 main/binary-armhf/Packages
- d3ff6d2279d1ac5da95c2236b6b103b9f4daf60e 626 main/binary-armhf/Packages.gz
+ f7a6256cddda4278547d6759794fa80cdb9cabe7 1201 main/binary-armhf/Packages
+ 2fcd37ec8b2056c9d92b6864b2287b46311dd8a8 700 main/binary-armhf/Packages.gz
  f32b988b989bcd89559f2c397184bf11fe63260b 135 main/binary-armhf/Release
+ cc81b8d86075b449eadb7847a6d1e9b0e8a65b00 1119 main/source/Sources
+ 4c179651f15fd28852f4227207194d121362e505 620 main/source/Sources.gz
+ 13d0109583d2fcd231feec5f7603749f8c3a4881 152 main/source/Release
 SHA256:
- 19471ba3f0ca4024a96b91c2ae05d58bf76fb56616a8be9ad8b4f195fa1063cc 1091 main/binary-armhf/Packages
- 57516730ad18f3534ba4d915924d90653df654b7912ebf5d740f5da40da49098 626 main/binary-armhf/Packages.gz
+ ad882ba8e6cddc5b399b7adaed8eb5a4042aa236d18e07f0da1db693ff4c5bfe 1201 main/binary-armhf/Packages
+ e10d1fe503b1f95ea58f08e2d36a326a71e30e4f182e84cf815e0de26f5b7dfb 700 main/binary-armhf/Packages.gz
  39b7e1b47d48fb5d976a7799a39010d68a2c8c207147c4694c6876e0e5d642f4 135 main/binary-armhf/Release
+ f1ce261e3a039f9f6140ed98af2c1de405723ce95e73a8ce0b7464e073b9c57a 1119 main/source/Sources
+ 298724fda8c28259bc9485bb1596da1d67c2c899fb32107ed9f7bbaa918c272c 620 main/source/Sources.gz
+ 474c1811bc0fffc0c826a3e10782a905d2cdad64424b204e8d88d3c289908898 152 main/source/Release

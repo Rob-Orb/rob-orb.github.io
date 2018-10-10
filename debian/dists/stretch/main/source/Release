@@ -1,8 +1,6 @@
+Archive: stable
+Component: main
 Origin: rob-orb.github.io/debian
 Label: rob-orb.github.io/debian
-Codename: stretch
-Architectures: armhf source
-Suite: stable
-Components: main
+Architecture: source
 Description: Robot-Orb Repository
-SignWith: C6520BD8 
