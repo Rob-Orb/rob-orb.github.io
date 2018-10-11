@@ -1588,7 +1588,7 @@ rosbag_migration_rule: {ubuntu: ros-kinetic-rosbag-migration-rule}
 rosbag_storage: {ubuntu: ros-kinetic-rosbag-storage, debian: ros-kinetic-bare}
 rosbaglive: {ubuntu: ros-kinetic-rosbaglive}
 rosbash: {ubuntu: ros-kinetic-rosbash, debian: ros-kinetic-rosbash}
-rosboost_cfg: {ubuntu: ros-kinetic-rosboost-cfg, debian: ros-kinetic-bare}
+rosboost_cfg: {ubuntu: ros-kinetic-rosboost-cfg, debian: ros-kinetic-rosboost-cfg}
 rosbridge_library: {ubuntu: ros-kinetic-rosbridge-library}
 rosbridge_server: {ubuntu: ros-kinetic-rosbridge-server}
 rosbridge_suite: {ubuntu: ros-kinetic-rosbridge-suite}

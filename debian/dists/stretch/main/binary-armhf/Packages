@@ -284,6 +284,22 @@ SHA1: 4749e28ca0bc4931926636a8c3bd459fbd1d6683
 MD5sum: 5798052c77115fd854b77ea61ee7849d
 Description: Assorted shell commands for using ros with bash.
 
+Package: ros-kinetic-rosboost-cfg
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 64
+Homepage: http://ros.org/wiki/rosboost_cfg
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosboost-cfg/ros-kinetic-rosboost-cfg_1.14.4-0stretch_armhf.deb
+Size: 13290
+SHA256: d1f9ee7313f209a4dbbd5d779bdfc4a9699bf6bbe8dedc3b852825ea335c82f2
+SHA1: a0597e02f3162a04dac98dcc0e9b244ebb56790d
+MD5sum: befb7e4a756afdeb5ef0828429014549
+Description: Contains scripts used by the rosboost-cfg tool for determining cflags/lflags/etc.
+ of boost on your system
+
 Package: ros-kinetic-rosbuild
 Version: 1.14.4-0stretch
 Architecture: armhf
