@@ -271,6 +271,22 @@ MD5sum: d12827c57fce20e9be4071aa53eb2671
 Description: A collection of .mk include files for building ROS architectural elements.
  Most package authors should use cmake .mk, which calls CMake for the build of the package. The other files in this package are intended for use in exotic situations that mostly arise when importing 3rdparty code.
 
+Package: ros-kinetic-ros
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 14
+Depends: ros-kinetic-catkin, ros-kinetic-mk, ros-kinetic-rosbash, ros-kinetic-rosboost-cfg, ros-kinetic-rosbuild, ros-kinetic-rosclean, ros-kinetic-roscreate, ros-kinetic-roslang, ros-kinetic-roslib, ros-kinetic-rosmake, ros-kinetic-rosunit
+Homepage: http://www.ros.org/wiki/ROS
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-ros/ros-kinetic-ros_1.14.4-0stretch_armhf.deb
+Size: 1712
+SHA256: ca2f49ff7ddcdb48b55079fe7ff97b5a34241eb1f9df319cc0b33b194abd7591
+SHA1: f0e468ac8ec83d97d121b071e212367b8a62f6a4
+MD5sum: a4fcdc03f9aeb7348d35391fedbb0c69
+Description: ROS packaging system
+
 Package: ros-kinetic-ros-environment
 Version: 1.0.0-0stretch
 Architecture: armhf
