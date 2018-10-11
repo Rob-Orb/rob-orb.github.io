@@ -127,3 +127,18 @@ SHA1: 0add2d5074401f1e1f89398feece1094994addd1
 MD5sum: 71f3f21f000e28a98b60e845b64dedb6
 Description: Standalone Python library for generating ROS message and service data structures for various languages.
 
+Package: ros-kinetic-genpy
+Version: 0.6.7-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 250
+Depends: python-yaml, ros-kinetic-genmsg
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-genpy/ros-kinetic-genpy_0.6.7-0stretch_armhf.deb
+Size: 50890
+SHA256: cb9cf3f1a60263376985e715d1cdec932db7ccada8084d21381c34645bb21dd3
+SHA1: a3777753f77f02a478d1217213ebe8276c5596cc
+MD5sum: 51fbd4c312972e889792529951e13f9a
+Description: Python ROS message and service generators.
+

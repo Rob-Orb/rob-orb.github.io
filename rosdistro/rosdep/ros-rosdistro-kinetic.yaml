@@ -492,7 +492,7 @@ genjava: {ubuntu: ros-kinetic-genjava}
 genlisp: {ubuntu: ros-kinetic-genlisp, debian: ros-kinetic-genlisp}
 genmsg: {ubuntu: ros-kinetic-genmsg, debian: ros-kinetic-genmsg}
 gennodejs: {ubuntu: ros-kinetic-gennodejs, debian: ros-kinetic-bare}
-genpy: {ubuntu: ros-kinetic-genpy, debian: ros-kinetic-bare}
+genpy: {ubuntu: ros-kinetic-genpy, debian: ros-kinetic-genpy}
 genrs: {ubuntu: ros-kinetic-genrs}
 geodesy: {ubuntu: ros-kinetic-geodesy}
 geographic_info: {ubuntu: ros-kinetic-geographic-info}
