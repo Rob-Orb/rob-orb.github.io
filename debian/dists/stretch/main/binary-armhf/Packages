@@ -254,6 +254,22 @@ SHA1: 38358b76174e98363d134fceb569fb90098427c1
 MD5sum: 06f681148520d66c0a1e974cdb7adda8
 Description: Package modeling the run-time dependencies for language bindings of messages.
 
+Package: ros-kinetic-rosbash
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 110
+Depends: ros-kinetic-catkin
+Homepage: http://www.ros.org/wiki/rosbash
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosbash/ros-kinetic-rosbash_1.14.4-0stretch_armhf.deb
+Size: 18514
+SHA256: c7fb4886bb17d05a62a2e3be85e49d638420367de6dc404ce2a8a8b30456f7be
+SHA1: 4749e28ca0bc4931926636a8c3bd459fbd1d6683
+MD5sum: 5798052c77115fd854b77ea61ee7849d
+Description: Assorted shell commands for using ros with bash.
+
 Package: ros-kinetic-roscpp-core
 Version: 0.6.11-0stretch
 Architecture: armhf
