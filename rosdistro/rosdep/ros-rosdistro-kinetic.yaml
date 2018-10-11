@@ -1628,7 +1628,7 @@ rosjava_test_msgs: {ubuntu: ros-kinetic-rosjava-test-msgs}
 rosjson: {ubuntu: ros-kinetic-rosjson}
 roslang: {ubuntu: ros-kinetic-roslang, debian: ros-kinetic-bare}
 roslaunch: {ubuntu: ros-kinetic-roslaunch, debian: ros-kinetic-bare}
-roslib: {ubuntu: ros-kinetic-roslib, debian: ros-kinetic-bare}
+roslib: {ubuntu: ros-kinetic-roslib, debian: ros-kinetic-roslib}
 roslint: {ubuntu: ros-kinetic-roslint}
 roslisp: {ubuntu: ros-kinetic-roslisp}
 roslisp_common: {ubuntu: ros-kinetic-roslisp-common}
