@@ -238,6 +238,22 @@ SHA1: d5a216d69023cd90f11cd2bf89a246fe4946b489
 MD5sum: 02e927f154d6d03c1c688e2d16d3e1b1
 Description: Package modeling the build-time dependencies for generating language bindings of messages.
 
+Package: ros-kinetic-roscpp-core
+Version: 0.6.11-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 13
+Depends: ros-kinetic-cpp-common, ros-kinetic-roscpp-serialization, ros-kinetic-roscpp-traits, ros-kinetic-rostime
+Homepage: http://www.ros.org/wiki/roscpp_core
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-roscpp-core/ros-kinetic-roscpp-core_0.6.11-0stretch_armhf.deb
+Size: 1574
+SHA256: 2aaf5a1e0a38864c3159b19ca2d109f179885eae9ee2bce3cac149c84c9fd59b
+SHA1: 860b09e6a35b24464cb6a679630e6ffa96532c2b
+MD5sum: e7e0a9d7afaa463b096173641cae6f56
+Description: Underlying data libraries for roscpp messages.
+
 Package: ros-kinetic-roscpp-serialization
 Version: 0.6.11-0stretch
 Architecture: armhf
