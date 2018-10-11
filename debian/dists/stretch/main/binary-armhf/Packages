@@ -222,3 +222,38 @@ SHA1: a3777753f77f02a478d1217213ebe8276c5596cc
 MD5sum: 51fbd4c312972e889792529951e13f9a
 Description: Python ROS message and service generators.
 
+Package: ros-kinetic-rostime
+Version: 0.6.11-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 157
+Depends: libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), libboost-all-dev, ros-kinetic-cpp-common
+Homepage: http://ros.org/wiki/rostime
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rostime/ros-kinetic-rostime_0.6.11-0stretch_armhf.deb
+Size: 32152
+SHA256: b832e83699f8553825431c10cf3629e349c13d361ad5617a220b8ca4b7014e59
+SHA1: 0a7a582dc6f883b82726ad0efa7cb6f898e6c98d
+MD5sum: fbbb607c44e519b3c5e669ce9eaa097e
+Description: Time and Duration implementations for C++ libraries, including roscpp.
+
+Package: ros-kinetic-rostime-dbgsym
+Source: ros-kinetic-rostime
+Version: 0.6.11-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 229
+Depends: ros-kinetic-rostime (= 0.6.11-0stretch)
+Homepage: http://ros.org/wiki/rostime
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-rostime/ros-kinetic-rostime-dbgsym_0.6.11-0stretch_armhf.deb
+Size: 187404
+SHA256: 257b168693ef7165d72118b6cf55e29b5f71f59483d97521af4843849527d294
+SHA1: b47eedea9035f5a77115919f9ae8a0f24e268186
+MD5sum: 6ddec01be11bf7706d6045885706e183
+Description: Debug symbols for ros-kinetic-rostime
+Build-Ids: 246b5a674f6a7994b8ed5344b7f01fc71f584ea1
+
