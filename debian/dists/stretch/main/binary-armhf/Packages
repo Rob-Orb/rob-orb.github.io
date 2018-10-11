@@ -358,3 +358,20 @@ MD5sum: 6ddec01be11bf7706d6045885706e183
 Description: Debug symbols for ros-kinetic-rostime
 Build-Ids: 246b5a674f6a7994b8ed5344b7f01fc71f584ea1
 
+Package: ros-kinetic-std-msgs
+Version: 0.5.11-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 98
+Depends: ros-kinetic-message-runtime
+Homepage: http://www.ros.org/wiki/std_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-std-msgs/ros-kinetic-std-msgs_0.5.11-0stretch_armhf.deb
+Size: 10502
+SHA256: cb44f5942f39c53d293d862a0ec79da383e5dd3c3d25627db4e365dbb7ddea1b
+SHA1: 8cadcaac833d779eeacf149ae17b4beb9429dd05
+MD5sum: 5e4e800c8e3483c1a938628155285eac
+Description: Standard ROS Messages including common message types representing primitive data types and other basic message constructs, such as multiarrays.
+ For common, generic robot-specific message types, please see common_msgs.
+

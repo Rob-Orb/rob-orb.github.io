@@ -1845,7 +1845,7 @@ stage_ros: {ubuntu: ros-kinetic-stage-ros}
 static_tf: {ubuntu: ros-kinetic-static-tf}
 statistics_msgs: {ubuntu: ros-kinetic-statistics-msgs}
 std_capabilities: {ubuntu: ros-kinetic-std-capabilities}
-std_msgs: {ubuntu: ros-kinetic-std-msgs, debian: ros-kinetic-bare}
+std_msgs: {ubuntu: ros-kinetic-std-msgs, debian: ros-kinetic-std-msgs}
 std_srvs: {ubuntu: ros-kinetic-std-srvs, debian: ros-kinetic-bare}
 stdr_gui: {ubuntu: ros-kinetic-stdr-gui}
 stdr_launchers: {ubuntu: ros-kinetic-stdr-launchers}
