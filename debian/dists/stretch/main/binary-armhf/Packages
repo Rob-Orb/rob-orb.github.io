@@ -270,6 +270,23 @@ SHA1: 4749e28ca0bc4931926636a8c3bd459fbd1d6683
 MD5sum: 5798052c77115fd854b77ea61ee7849d
 Description: Assorted shell commands for using ros with bash.
 
+Package: ros-kinetic-rosclean
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 51
+Depends: python-rospkg
+Homepage: http://ros.org/wiki/rosclean
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosclean/ros-kinetic-rosclean_1.14.4-0stretch_armhf.deb
+Size: 10496
+SHA256: 81039bb5a541669e2e1cc126ee67c703c4c5d413e020e5e54066e01ed9a4634d
+SHA1: e845f5e924c38373e9c011f010e9f093ea34a330
+MD5sum: 6b5203330388eb04f63d560ac5ba183f
+Description: rosclean: cleanup filesystem resources (e.g.
+ log files).
+
 Package: ros-kinetic-roscpp-core
 Version: 0.6.11-0stretch
 Architecture: armhf
