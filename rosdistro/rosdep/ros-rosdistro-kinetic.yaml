@@ -1592,7 +1592,7 @@ rosboost_cfg: {ubuntu: ros-kinetic-rosboost-cfg, debian: ros-kinetic-bare}
 rosbridge_library: {ubuntu: ros-kinetic-rosbridge-library}
 rosbridge_server: {ubuntu: ros-kinetic-rosbridge-server}
 rosbridge_suite: {ubuntu: ros-kinetic-rosbridge-suite}
-rosbuild: {ubuntu: ros-kinetic-rosbuild, debian: ros-kinetic-bare}
+rosbuild: {ubuntu: ros-kinetic-rosbuild, debian: ros-kinetic-rosbuild}
 rosclean: {ubuntu: ros-kinetic-rosclean, debian: ros-kinetic-rosclean}
 roscompile: {ubuntu: ros-kinetic-roscompile}
 rosconsole: {ubuntu: ros-kinetic-rosconsole, debian: ros-kinetic-bare}

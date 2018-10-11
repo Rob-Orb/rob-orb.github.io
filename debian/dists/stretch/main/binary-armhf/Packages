@@ -284,6 +284,22 @@ SHA1: 4749e28ca0bc4931926636a8c3bd459fbd1d6683
 MD5sum: 5798052c77115fd854b77ea61ee7849d
 Description: Assorted shell commands for using ros with bash.
 
+Package: ros-kinetic-rosbuild
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 144
+Depends: ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-message-runtime
+Homepage: http://ros.org/wiki/rosbuild
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosbuild/ros-kinetic-rosbuild_1.14.4-0stretch_armhf.deb
+Size: 28366
+SHA256: a258402619b35d16c11704bf967cb506b8991d4751323fef5d0a9a9aad96e007
+SHA1: fee7d1e304bd978f1aad8c75d45e45016a86d756
+MD5sum: c13813bb990b11f7ee44562b27015a40
+Description: rosbuild contains scripts for managing the CMake-based build system for ROS.
+
 Package: ros-kinetic-rosclean
 Version: 1.14.4-0stretch
 Architecture: armhf
