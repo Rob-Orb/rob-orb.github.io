@@ -222,6 +222,22 @@ SHA1: a3777753f77f02a478d1217213ebe8276c5596cc
 MD5sum: 51fbd4c312972e889792529951e13f9a
 Description: Python ROS message and service generators.
 
+Package: ros-kinetic-message-generation
+Version: 0.4.0-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 27
+Depends: ros-kinetic-gencpp, ros-kinetic-geneus, ros-kinetic-genlisp, ros-kinetic-genmsg, ros-kinetic-gennodejs, ros-kinetic-genpy
+Homepage: http://ros.org/wiki/message_generation
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-message-generation/ros-kinetic-message-generation_0.4.0-0stretch_armhf.deb
+Size: 4320
+SHA256: 029102723893a2a6a3311301e0041dc083df867c9a1672c5d0dddf38ce235c03
+SHA1: d5a216d69023cd90f11cd2bf89a246fe4946b489
+MD5sum: 02e927f154d6d03c1c688e2d16d3e1b1
+Description: Package modeling the build-time dependencies for generating language bindings of messages.
+
 Package: ros-kinetic-roscpp-serialization
 Version: 0.6.11-0stretch
 Architecture: armhf
