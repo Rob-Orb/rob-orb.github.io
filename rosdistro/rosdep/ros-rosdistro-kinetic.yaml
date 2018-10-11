@@ -490,7 +490,7 @@ generic_throttle: {ubuntu: ros-kinetic-generic-throttle}
 geneus: {ubuntu: ros-kinetic-geneus, debian: ros-kinetic-bare}
 genjava: {ubuntu: ros-kinetic-genjava}
 genlisp: {ubuntu: ros-kinetic-genlisp, debian: ros-kinetic-bare}
-genmsg: {ubuntu: ros-kinetic-genmsg, debian: ros-kinetic-bare}
+genmsg: {ubuntu: ros-kinetic-genmsg, debian: ros-kinetic-genmsg}
 gennodejs: {ubuntu: ros-kinetic-gennodejs, debian: ros-kinetic-bare}
 genpy: {ubuntu: ros-kinetic-genpy, debian: ros-kinetic-bare}
 genrs: {ubuntu: ros-kinetic-genrs}
