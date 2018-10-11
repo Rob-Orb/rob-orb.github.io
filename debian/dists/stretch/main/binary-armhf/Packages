@@ -403,6 +403,23 @@ MD5sum: 8ca695e5ddc5edd495c937f4371d7518
 Description: roscreate contains a tool that assists in the creation of ROS filesystem resources.
  It provides: roscreate-pkg, which creates a new package directory, including the appropriate build and manifest files.
 
+Package: ros-kinetic-roslang
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 29
+Depends: ros-kinetic-catkin, ros-kinetic-genmsg
+Homepage: http://ros.org/wiki/roslang
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-roslang/ros-kinetic-roslang_1.14.4-0stretch_armhf.deb
+Size: 5706
+SHA256: 3fb2b18b73a8b253b985f27b986e8ff0bfe3df0ad1979d4aff3dffeb0151cda9
+SHA1: 005083723dae094a67cf31f67fe28e1333ac7c6a
+MD5sum: d71c0b9a66536735159facc7c0a2cfaa
+Description: roslang is a common package that all ROS client libraries depend on.
+ This is mainly used to find client libraries (via 'rospack depends-on1 roslang').
+
 Package: ros-kinetic-roslib
 Version: 1.14.4-0stretch
 Architecture: armhf
