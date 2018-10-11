@@ -485,7 +485,7 @@ gazebo_ros_pkgs: {ubuntu: ros-kinetic-gazebo-ros-pkgs}
 gcloud_speech: {ubuntu: ros-kinetic-gcloud-speech}
 gcloud_speech_msgs: {ubuntu: ros-kinetic-gcloud-speech-msgs}
 gcloud_speech_utils: {ubuntu: ros-kinetic-gcloud-speech-utils}
-gencpp: {ubuntu: ros-kinetic-gencpp, debian: ros-kinetic-bare}
+gencpp: {ubuntu: ros-kinetic-gencpp, debian: ros-kinetic-gencpp}
 generic_throttle: {ubuntu: ros-kinetic-generic-throttle}
 geneus: {ubuntu: ros-kinetic-geneus, debian: ros-kinetic-bare}
 genjava: {ubuntu: ros-kinetic-genjava}
