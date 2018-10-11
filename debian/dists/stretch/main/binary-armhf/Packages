@@ -95,6 +95,22 @@ SHA1: 38e105229061dedddbddbb6dc946b3ce00c8393c
 MD5sum: 7ebcb9d37513641233cef8a09a1d2e9f
 Description: C++ ROS message and service generators.
 
+Package: ros-kinetic-genlisp
+Version: 0.4.16-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 116
+Depends: ros-kinetic-genmsg
+Homepage: http://www.ros.org/wiki/roslisp
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-genlisp/ros-kinetic-genlisp_0.4.16-0stretch_armhf.deb
+Size: 21332
+SHA256: 2d9a2cf63264377e0570a0c0beffa2dc1978c8e6de096c515c8a670dc1a983d4
+SHA1: 4852b793972dbddf03358337b76e22710b03d269
+MD5sum: 2efdb0513caf2cf7649a14b9b09bdba6
+Description: Common-Lisp ROS message and service generators.
+
 Package: ros-kinetic-genmsg
 Version: 0.5.11-0stretch
 Architecture: armhf
