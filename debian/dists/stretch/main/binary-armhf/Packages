@@ -254,6 +254,20 @@ SHA1: 38358b76174e98363d134fceb569fb90098427c1
 MD5sum: 06f681148520d66c0a1e974cdb7adda8
 Description: Package modeling the run-time dependencies for language bindings of messages.
 
+Package: ros-kinetic-ros-environment
+Version: 1.0.0-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 34
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-ros-environment/ros-kinetic-ros-environment_1.0.0-0stretch_armhf.deb
+Size: 5032
+SHA256: 456f673075013de1f11186cfb7151f3c9a027e3554276cd501b0c2de3b19ae6e
+SHA1: 0085e2504666b814b2751735ecd7aa5a538b3559
+MD5sum: 1e6bf51c46f454f99f473eb9c1af6e55
+Description: The package provides the environment variables `ROS_VERSION`, `ROS_DISTRO`, `ROS_PACKAGE_PATH`, and `ROS_ETC_DIR`.
+
 Package: ros-kinetic-rosbash
 Version: 1.14.4-0stretch
 Architecture: armhf

@@ -1567,7 +1567,7 @@ ros_control_boilerplate: {ubuntu: ros-kinetic-ros-control-boilerplate}
 ros_controllers: {ubuntu: ros-kinetic-ros-controllers}
 ros_core: {ubuntu: ros-kinetic-ros-core}
 ros_emacs_utils: {ubuntu: ros-kinetic-ros-emacs-utils}
-ros_environment: {ubuntu: ros-kinetic-ros-environment, debian: ros-kinetic-bare}
+ros_environment: {ubuntu: ros-kinetic-ros-environment, debian: ros-kinetic-ros-environment}
 ros_explorer: {ubuntu: ros-kinetic-ros-explorer}
 ros_introspection: {ubuntu: ros-kinetic-ros-introspection}
 ros_madplay_player: {ubuntu: ros-kinetic-ros-madplay-player}
