@@ -80,6 +80,20 @@ SHA1: 56ece5358b288b03ce6e401d12effc690089c433
 MD5sum: cb92939e88111c3b7ef7333b89bc0ee7
 Description: Low-level build system macros and infrastructure for ROS.
 
+Package: ros-kinetic-cmake-modules
+Version: 0.4.1-0stretch
+Architecture: armhf
+Maintainer: William Woodall <william@osrfoundation.org>
+Installed-Size: 82
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-cmake-modules/ros-kinetic-cmake-modules_0.4.1-0stretch_armhf.deb
+Size: 18254
+SHA256: 928ea9b67d1437d567b33f80e26b1817e98eae71631cf5c8204e2bb8c865887c
+SHA1: 0b0a4b0daf748fdcdb7f8eafee1d25e1ce0bfbb1
+MD5sum: 773b2bdde454cb6e0829b65dc9ad66f0
+Description: A common repository for CMake Modules which are not distributed with CMake but are commonly used by ROS packages.
+
 Package: ros-kinetic-gencpp
 Version: 0.6.0-0stretch
 Architecture: armhf

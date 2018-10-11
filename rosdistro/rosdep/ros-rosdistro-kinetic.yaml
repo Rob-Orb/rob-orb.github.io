@@ -140,7 +140,7 @@ clear_costmap_recovery: {ubuntu: ros-kinetic-clear-costmap-recovery}
 click: {ubuntu: ros-kinetic-click}
 clock_relay: {ubuntu: ros-kinetic-clock-relay}
 cm_740_module: {ubuntu: ros-kinetic-cm-740-module}
-cmake_modules: {ubuntu: ros-kinetic-cmake-modules, debian: ros-kinetic-bare}
+cmake_modules: {ubuntu: ros-kinetic-cmake-modules, debian: ros-kinetic-cmake-modules}
 cmd_vel_smoother: {ubuntu: ros-kinetic-cmd-vel-smoother}
 cob_3d_mapping_msgs: {ubuntu: ros-kinetic-cob-3d-mapping-msgs}
 cob_android: {ubuntu: ros-kinetic-cob-android}
