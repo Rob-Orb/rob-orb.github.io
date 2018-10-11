@@ -339,6 +339,22 @@ MD5sum: ceada87b821053e5755fe64509e4528a
 Description: roscpp_traits contains the message traits code as described in MessagesTraits.
  This package is a component of roscpp.
 
+Package: ros-kinetic-rosmake
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 147
+Depends: python-rospkg, ros-kinetic-catkin
+Homepage: http://ros.org/wiki/rosmake
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosmake/ros-kinetic-rosmake_1.14.4-0stretch_armhf.deb
+Size: 32210
+SHA256: cbefce2a186bd40ba7ff38d3af2c00f1706dfe973b0c0a6c51c4e1bf29185916
+SHA1: 16a381bed39a61a2a1c3a4d9be71ede3dbb35764
+MD5sum: 8c9c7aae054f3f9f557623b274e08059
+Description: rosmake is a ros dependency aware build tool which can be used to build all dependencies in the correct order.
+
 Package: ros-kinetic-rospack
 Version: 2.4.4-0stretch
 Architecture: armhf

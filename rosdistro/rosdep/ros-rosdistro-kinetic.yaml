@@ -1635,7 +1635,7 @@ roslisp_common: {ubuntu: ros-kinetic-roslisp-common}
 roslisp_repl: {ubuntu: ros-kinetic-roslisp-repl}
 roslisp_utilities: {ubuntu: ros-kinetic-roslisp-utilities}
 roslz4: {ubuntu: ros-kinetic-roslz4, debian: ros-kinetic-bare}
-rosmake: {ubuntu: ros-kinetic-rosmake, debian: ros-kinetic-bare}
+rosmake: {ubuntu: ros-kinetic-rosmake, debian: ros-kinetic-rosmake}
 rosmaster: {ubuntu: ros-kinetic-rosmaster, debian: ros-kinetic-bare}
 rosmon: {ubuntu: ros-kinetic-rosmon}
 rosmsg: {ubuntu: ros-kinetic-rosmsg, debian: ros-kinetic-bare}
