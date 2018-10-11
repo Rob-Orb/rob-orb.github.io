@@ -410,3 +410,19 @@ MD5sum: 5e4e800c8e3483c1a938628155285eac
 Description: Standard ROS Messages including common message types representing primitive data types and other basic message constructs, such as multiarrays.
  For common, generic robot-specific message types, please see common_msgs.
 
+Package: ros-kinetic-std-srvs
+Version: 1.11.2-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 33
+Depends: ros-kinetic-message-runtime
+Homepage: http://ros.org/wiki/std_srvs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-std-srvs/ros-kinetic-std-srvs_1.11.2-0stretch_armhf.deb
+Size: 5474
+SHA256: 9da983ff2d0d9ba6f315efa1dad89862d69f7ef1e56e4d7f88e333c14c6f2f8d
+SHA1: 292b431bf2b3fe41e489388253b2e723c3f7592a
+MD5sum: 6cb48583b03a40fa9887efa0c560943e
+Description: Common service definitions.
+
