@@ -1602,7 +1602,7 @@ roscpp_core: {ubuntu: ros-kinetic-roscpp-core, debian: ros-kinetic-roscpp-core}
 roscpp_serialization: {ubuntu: ros-kinetic-roscpp-serialization, debian: ros-kinetic-roscpp-serialization}
 roscpp_traits: {ubuntu: ros-kinetic-roscpp-traits, debian: ros-kinetic-roscpp-traits}
 roscpp_tutorials: {ubuntu: ros-kinetic-roscpp-tutorials}
-roscreate: {ubuntu: ros-kinetic-roscreate, debian: ros-kinetic-bare}
+roscreate: {ubuntu: ros-kinetic-roscreate, debian: ros-kinetic-roscreate}
 rosdiagnostic: {ubuntu: ros-kinetic-rosdiagnostic}
 rosdoc_lite: {ubuntu: ros-kinetic-rosdoc-lite}
 rosemacs: {ubuntu: ros-kinetic-rosemacs}
