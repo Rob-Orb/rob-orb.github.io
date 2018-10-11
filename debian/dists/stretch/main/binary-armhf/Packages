@@ -142,6 +142,21 @@ SHA1: 0add2d5074401f1e1f89398feece1094994addd1
 MD5sum: 71f3f21f000e28a98b60e845b64dedb6
 Description: Standalone Python library for generating ROS message and service data structures for various languages.
 
+Package: ros-kinetic-gennodejs
+Version: 2.0.1-0stretch
+Architecture: armhf
+Maintainer: Chris Smith <csmith@rethinkrobotics.com>
+Installed-Size: 116
+Depends: ros-kinetic-genmsg
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-gennodejs/ros-kinetic-gennodejs_2.0.1-0stretch_armhf.deb
+Size: 22236
+SHA256: df34ff1f07fa64af1c392b6b7c21dbcd83fef20dbe050aa608b5a5a77bd4e810
+SHA1: 3f06050120ec748ce9e06b3315cc16fec64a205c
+MD5sum: 23e68696e626d20f31d64ee16a424711
+Description: Javascript ROS message and service generators.
+
 Package: ros-kinetic-genpy
 Version: 0.6.7-0stretch
 Architecture: armhf
