@@ -222,6 +222,23 @@ SHA1: a3777753f77f02a478d1217213ebe8276c5596cc
 MD5sum: 51fbd4c312972e889792529951e13f9a
 Description: Python ROS message and service generators.
 
+Package: ros-kinetic-roscpp-traits
+Version: 0.6.11-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 61
+Depends: ros-kinetic-cpp-common, ros-kinetic-rostime
+Homepage: http://ros.org/wiki/roscpp_traits
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-roscpp-traits/ros-kinetic-roscpp-traits_0.6.11-0stretch_armhf.deb
+Size: 10536
+SHA256: 77950de5b9f98cfcefee500c4ac61b9d4ad963ca31094c963bb6aa1bef44a71f
+SHA1: 8be95e4c282ff2ab5c349bdea56c719db2295276
+MD5sum: ceada87b821053e5755fe64509e4528a
+Description: roscpp_traits contains the message traits code as described in MessagesTraits.
+ This package is a component of roscpp.
+
 Package: ros-kinetic-rostime
 Version: 0.6.11-0stretch
 Architecture: armhf
