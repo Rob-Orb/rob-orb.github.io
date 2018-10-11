@@ -254,6 +254,23 @@ SHA1: 38358b76174e98363d134fceb569fb90098427c1
 MD5sum: 06f681148520d66c0a1e974cdb7adda8
 Description: Package modeling the run-time dependencies for language bindings of messages.
 
+Package: ros-kinetic-mk
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 44
+Depends: ros-kinetic-rosbuild
+Homepage: http://www.ros.org/wiki/ROS
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-mk/ros-kinetic-mk_1.14.4-0stretch_armhf.deb
+Size: 10292
+SHA256: ae1f0447dced5410965c7bb7bce0153039e12d8c5dc464921d93d832f2d7a636
+SHA1: e87baa33c78e3cfa5711451c0abebebbdcb48ad7
+MD5sum: d12827c57fce20e9be4071aa53eb2671
+Description: A collection of .mk include files for building ROS architectural elements.
+ Most package authors should use cmake .mk, which calls CMake for the build of the package. The other files in this package are intended for use in exotic situations that mostly arise when importing 3rdparty code.
+
 Package: ros-kinetic-ros-environment
 Version: 1.0.0-0stretch
 Architecture: armhf

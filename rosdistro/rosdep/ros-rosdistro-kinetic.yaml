@@ -933,7 +933,7 @@ mir_gazebo: {ubuntu: ros-kinetic-mir-gazebo}
 mir_msgs: {ubuntu: ros-kinetic-mir-msgs}
 mir_navigation: {ubuntu: ros-kinetic-mir-navigation}
 mir_robot: {ubuntu: ros-kinetic-mir-robot}
-mk: {ubuntu: ros-kinetic-mk, debian: ros-kinetic-bare}
+mk: {ubuntu: ros-kinetic-mk, debian: ros-kinetic-mk}
 mobileye_560_660_msgs: {ubuntu: ros-kinetic-mobileye-560-660-msgs}
 modelica_bridge: {ubuntu: ros-kinetic-modelica-bridge}
 mongodb_log: {ubuntu: ros-kinetic-mongodb-log}
