@@ -94,6 +94,42 @@ SHA1: 0b0a4b0daf748fdcdb7f8eafee1d25e1ce0bfbb1
 MD5sum: 773b2bdde454cb6e0829b65dc9ad66f0
 Description: A common repository for CMake Modules which are not distributed with CMake but are commonly used by ROS packages.
 
+Package: ros-kinetic-cpp-common
+Version: 0.6.11-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 80
+Depends: libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), libboost-all-dev, libconsole-bridge-dev
+Homepage: http://www.ros.org/wiki/cpp_common
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-cpp-common/ros-kinetic-cpp-common_0.6.11-0stretch_armhf.deb
+Size: 18090
+SHA256: 871b23bfc2bad83b1e5abc3e785fc885d25a9353ee2494f7686885352165ec85
+SHA1: 539fb64b2be3f7390e17e06161b2afaa468a4eba
+MD5sum: d2317b67f78c29ac6b4f3f2ebbefe4a5
+Description: cpp_common contains C++ code for doing things that are not necessarily ROS related, but are useful for multiple packages.
+ This includes things like the ROS_DEPRECATED and ROS_FORCE_INLINE macros, as well as code for getting backtraces. This package is a component of roscpp.
+
+Package: ros-kinetic-cpp-common-dbgsym
+Source: ros-kinetic-cpp-common
+Version: 0.6.11-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 116
+Depends: ros-kinetic-cpp-common (= 0.6.11-0stretch)
+Homepage: http://www.ros.org/wiki/cpp_common
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-cpp-common/ros-kinetic-cpp-common-dbgsym_0.6.11-0stretch_armhf.deb
+Size: 99544
+SHA256: 36c73f6834dbe2d250f1946bcc0fac2c5b5f392d43eafbedb0d3043074e05661
+SHA1: 867bd4a19098db8dc07eddbe521bcb6dc7ce8730
+MD5sum: e0fc06eb7039da4485ca27774340fcaf
+Description: Debug symbols for ros-kinetic-cpp-common
+Build-Ids: 48050120fb29e2ad2ab7aaed90b7ce741fabb8f8
+
 Package: ros-kinetic-gencpp
 Version: 0.6.0-0stretch
 Architecture: armhf

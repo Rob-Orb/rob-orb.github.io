@@ -274,7 +274,7 @@ costmap_converter: {ubuntu: ros-kinetic-costmap-converter}
 costmap_cspace: {ubuntu: ros-kinetic-costmap-cspace}
 costmap_cspace_msgs: {ubuntu: ros-kinetic-costmap-cspace-msgs}
 costmap_prohibition_layer: {ubuntu: ros-kinetic-costmap-prohibition-layer}
-cpp_common: {ubuntu: ros-kinetic-cpp-common, debian: ros-kinetic-bare}
+cpp_common: {ubuntu: ros-kinetic-cpp-common, debian: ros-kinetic-cpp-common}
 cpr_multimaster_tools: {ubuntu: ros-kinetic-cpr-multimaster-tools}
 create_dashboard: {ubuntu: ros-kinetic-create-dashboard}
 create_description: {ubuntu: ros-kinetic-create-description}
