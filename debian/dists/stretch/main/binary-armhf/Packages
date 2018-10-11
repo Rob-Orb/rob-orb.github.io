@@ -323,6 +323,41 @@ MD5sum: ceada87b821053e5755fe64509e4528a
 Description: roscpp_traits contains the message traits code as described in MessagesTraits.
  This package is a component of roscpp.
 
+Package: ros-kinetic-rospack
+Version: 2.4.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 304
+Depends: libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-system1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libpython2.7 (>= 2.7), libstdc++6 (>= 5.2), libtinyxml2.6.2v5, libboost-all-dev, libtinyxml-dev, pkg-config, python-catkin-pkg, python-dev, python-rosdep
+Homepage: http://wiki.ros.org/rospack
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rospack/ros-kinetic-rospack_2.4.4-0stretch_armhf.deb
+Size: 84812
+SHA256: 4eaa76d8deaf85f00052800b47675a5d0685a16c85ef81762ccc78d54a75b8a0
+SHA1: e028bc06b79ac67fe244e51c85b93cdc02aab049
+MD5sum: c317f535aef518d2b3b7c26025bd9a8a
+Description: ROS Package Tool
+
+Package: ros-kinetic-rospack-dbgsym
+Source: ros-kinetic-rospack
+Version: 2.4.4-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 1011
+Depends: ros-kinetic-rospack (= 2.4.4-0stretch)
+Homepage: http://wiki.ros.org/rospack
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-rospack/ros-kinetic-rospack-dbgsym_2.4.4-0stretch_armhf.deb
+Size: 958482
+SHA256: 3de06e34a8b8bff766cf9aca42056e8e8f832f055ea87ee7c65d218c7c6ed6b5
+SHA1: e6f064ffa0139398ccc9ab5ce39d243956537e9e
+MD5sum: 006d72db076189628b16693ba06bd0f5
+Description: Debug symbols for ros-kinetic-rospack
+Build-Ids: 4b731625fddec6d3371a8a88f9c2c69962c6dadf 6ca18caa5762175a7f04f03a72fdfb2e987e3b63 7b29983623a2fdfe01531c80c495b591e7737225
+
 Package: ros-kinetic-rostime
 Version: 0.6.11-0stretch
 Architecture: armhf
