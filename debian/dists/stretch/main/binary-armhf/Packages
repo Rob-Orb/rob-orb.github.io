@@ -558,6 +558,23 @@ MD5sum: 6ddec01be11bf7706d6045885706e183
 Description: Debug symbols for ros-kinetic-rostime
 Build-Ids: 246b5a674f6a7994b8ed5344b7f01fc71f584ea1
 
+Package: ros-kinetic-rosunit
+Version: 1.14.4-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 230
+Depends: python-rospkg, ros-kinetic-roslib
+Homepage: http://ros.org/wiki/rosunit
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosunit/ros-kinetic-rosunit_1.14.4-0stretch_armhf.deb
+Size: 47388
+SHA256: 6bcac7a7f9315e7c65e1a8b98bfda09c663d3cfa8e7800af8a79b286f64264cb
+SHA1: 2aeb129f1087fc00ff26dfcea9c5ba455ce2dee0
+MD5sum: 75fe8bfce558386c86d39059dc855636
+Description: Unit-testing package for ROS.
+ This is a lower-level library for rostest and handles unit tests, whereas rostest handles integration tests.
+
 Package: ros-kinetic-std-msgs
 Version: 0.5.11-0stretch
 Architecture: armhf

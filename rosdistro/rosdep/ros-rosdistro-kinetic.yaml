@@ -1670,7 +1670,7 @@ rostful: {ubuntu: ros-kinetic-rostful}
 rostime: {ubuntu: ros-kinetic-rostime, debian: ros-kinetic-rostime}
 rostopic: {ubuntu: ros-kinetic-rostopic, debian: ros-kinetic-bare}
 rostune: {ubuntu: ros-kinetic-rostune}
-rosunit: {ubuntu: ros-kinetic-rosunit, debian: ros-kinetic-bare}
+rosunit: {ubuntu: ros-kinetic-rosunit, debian: ros-kinetic-rosunit}
 rosweb: {ubuntu: ros-kinetic-rosweb}
 roswtf: {ubuntu: ros-kinetic-roswtf, debian: ros-kinetic-bare}
 roswww: {ubuntu: ros-kinetic-roswww}
