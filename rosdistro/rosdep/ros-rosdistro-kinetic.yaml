@@ -123,7 +123,7 @@ cartographer_ros: {ubuntu: ros-kinetic-cartographer-ros}
 cartographer_ros_msgs: {ubuntu: ros-kinetic-cartographer-ros-msgs}
 cartographer_rviz: {ubuntu: ros-kinetic-cartographer-rviz}
 catch_ros: {ubuntu: ros-kinetic-catch-ros}
-catkin: {ubuntu: ros-kinetic-catkin, debian: ros-kinetic-bare}
+catkin: {ubuntu: ros-kinetic-catkin, debian: ros-kinetic-catkin}
 catkin_pip: {ubuntu: ros-kinetic-catkin-pip}
 catkin_virtualenv: {ubuntu: ros-kinetic-catkin-virtualenv}
 certifi: {ubuntu: ros-kinetic-certifi}
