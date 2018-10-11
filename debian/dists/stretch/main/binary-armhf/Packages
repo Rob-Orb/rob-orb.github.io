@@ -95,6 +95,21 @@ SHA1: 38e105229061dedddbddbb6dc946b3ce00c8393c
 MD5sum: 7ebcb9d37513641233cef8a09a1d2e9f
 Description: C++ ROS message and service generators.
 
+Package: ros-kinetic-geneus
+Version: 2.2.6-0stretch
+Architecture: armhf
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 126
+Depends: ros-kinetic-genmsg
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-geneus/ros-kinetic-geneus_2.2.6-0stretch_armhf.deb
+Size: 26404
+SHA256: 93c43ee1d9b4245a2060a354ba3c3ed671b79c9f383ef7e401781651e8ffb0d9
+SHA1: 5d59b6c16ffb6825b993d90323843f63b113ea9d
+MD5sum: 5f59f2dc8bf8cf0372ea02e2c4faf7e4
+Description: EusLisp ROS message and service generators.
+
 Package: ros-kinetic-genlisp
 Version: 0.4.16-0stretch
 Architecture: armhf
