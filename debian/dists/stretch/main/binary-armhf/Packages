@@ -80,3 +80,19 @@ SHA1: 56ece5358b288b03ce6e401d12effc690089c433
 MD5sum: cb92939e88111c3b7ef7333b89bc0ee7
 Description: Low-level build system macros and infrastructure for ROS.
 
+Package: ros-kinetic-genmsg
+Version: 0.5.11-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 187
+Depends: ros-kinetic-catkin
+Homepage: http://www.ros.org/wiki/genmsg
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-genmsg/ros-kinetic-genmsg_0.5.11-0stretch_armhf.deb
+Size: 36268
+SHA256: 8d00cc0cf90a1b49850d177df22a349395ab129b3b2d1ace6b89c271bd967751
+SHA1: 0add2d5074401f1e1f89398feece1094994addd1
+MD5sum: 71f3f21f000e28a98b60e845b64dedb6
+Description: Standalone Python library for generating ROS message and service data structures for various languages.
+
