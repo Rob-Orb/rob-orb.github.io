@@ -1616,7 +1616,7 @@ rosflight_msgs: {ubuntu: ros-kinetic-rosflight-msgs}
 rosflight_pkgs: {ubuntu: ros-kinetic-rosflight-pkgs}
 rosflight_sim: {ubuntu: ros-kinetic-rosflight-sim}
 rosflight_utils: {ubuntu: ros-kinetic-rosflight-utils}
-rosgraph: {ubuntu: ros-kinetic-rosgraph, debian: ros-kinetic-bare}
+rosgraph: {ubuntu: ros-kinetic-rosgraph, debian: ros-kinetic-rosgraph}
 rosgraph_msgs: {ubuntu: ros-kinetic-rosgraph-msgs, debian: ros-kinetic-bare}
 rosjava: {ubuntu: ros-kinetic-rosjava}
 rosjava_bootstrap: {ubuntu: ros-kinetic-rosjava-bootstrap}

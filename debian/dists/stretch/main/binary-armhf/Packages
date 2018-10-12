@@ -452,6 +452,23 @@ MD5sum: 8ca695e5ddc5edd495c937f4371d7518
 Description: roscreate contains a tool that assists in the creation of ROS filesystem resources.
  It provides: roscreate-pkg, which creates a new package directory, including the appropriate build and manifest files.
 
+Package: ros-kinetic-rosgraph
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 232
+Depends: python-netifaces, python-rospkg
+Homepage: http://ros.org/wiki/rosgraph
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosgraph/ros-kinetic-rosgraph_1.12.14-0stretch_armhf.deb
+Size: 45878
+SHA256: 52a6ca1c7c97dbb933a1d08fc05df88ae6d8569005172502c6cf06ea33d27e61
+SHA1: 1b9f515d649cd3a1eeb98f90c694a74310b886de
+MD5sum: 41a54c3b51f558749e808ceb170ac84d
+Description: rosgraph contains the rosgraph command-line tool, which prints information about the ROS Computation Graph.
+ It also provides an internal library that can be used by graphical tools.
+
 Package: ros-kinetic-roslang
 Version: 1.14.4-0stretch
 Architecture: armhf
