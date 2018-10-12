@@ -1585,7 +1585,7 @@ rosatomic: {ubuntu: ros-kinetic-rosatomic}
 rosauth: {ubuntu: ros-kinetic-rosauth}
 rosbag: {ubuntu: ros-kinetic-rosbag, debian: ros-kinetic-bare}
 rosbag_migration_rule: {ubuntu: ros-kinetic-rosbag-migration-rule}
-rosbag_storage: {ubuntu: ros-kinetic-rosbag-storage, debian: ros-kinetic-bare}
+rosbag_storage: {ubuntu: ros-kinetic-rosbag-storage, debian: ros-kinetic-rosbag-storage}
 rosbaglive: {ubuntu: ros-kinetic-rosbaglive}
 rosbash: {ubuntu: ros-kinetic-rosbash, debian: ros-kinetic-rosbash}
 rosboost_cfg: {ubuntu: ros-kinetic-rosboost-cfg, debian: ros-kinetic-rosboost-cfg}
