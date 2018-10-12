@@ -366,6 +366,41 @@ MD5sum: 6b5203330388eb04f63d560ac5ba183f
 Description: rosclean: cleanup filesystem resources (e.g.
  log files).
 
+Package: ros-kinetic-rosconsole
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 344
+Depends: libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), liblog4cxx10v5, libstdc++6 (>= 5.2), libapr1-dev, libaprutil1-dev, liblog4cxx-dev, ros-kinetic-cpp-common, ros-kinetic-rosbuild, ros-kinetic-rostime
+Homepage: http://www.ros.org/wiki/rosconsole
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosconsole/ros-kinetic-rosconsole_1.12.14-0stretch_armhf.deb
+Size: 70956
+SHA256: 1546ac46a708654402ac57c488b62119e2126d39c22e86f1f2315863f1b747f3
+SHA1: dc8575a023011bd6de25d0a83beaae3da30c7658
+MD5sum: 886f7e9ec4ea8f1acbda646a774034d5
+Description: ROS console output library.
+
+Package: ros-kinetic-rosconsole-dbgsym
+Source: ros-kinetic-rosconsole
+Version: 1.12.14-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 831
+Depends: ros-kinetic-rosconsole (= 1.12.14-0stretch)
+Homepage: http://www.ros.org/wiki/rosconsole
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-rosconsole/ros-kinetic-rosconsole-dbgsym_1.12.14-0stretch_armhf.deb
+Size: 720972
+SHA256: 0b76bece0525f2b5c6b345232f313d4e13ea85501637c990f27f8e7c974b39b4
+SHA1: 4fd772b8507eaefd151a93444c4a06634daf3b88
+MD5sum: 8e837f0c52befedd99551936a6b379b9
+Description: Debug symbols for ros-kinetic-rosconsole
+Build-Ids: 300b1c070a72b078d966320624a28e0e75c3d239 7e4703c184172a7a1bf7449ead0707e770663e16 c9ae5333df5899a86f2d77b0881eb26186eb6509
+
 Package: ros-kinetic-roscpp-core
 Version: 0.6.11-0stretch
 Architecture: armhf

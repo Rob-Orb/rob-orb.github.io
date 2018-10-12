@@ -1595,7 +1595,7 @@ rosbridge_suite: {ubuntu: ros-kinetic-rosbridge-suite}
 rosbuild: {ubuntu: ros-kinetic-rosbuild, debian: ros-kinetic-rosbuild}
 rosclean: {ubuntu: ros-kinetic-rosclean, debian: ros-kinetic-rosclean}
 roscompile: {ubuntu: ros-kinetic-roscompile}
-rosconsole: {ubuntu: ros-kinetic-rosconsole, debian: ros-kinetic-bare}
+rosconsole: {ubuntu: ros-kinetic-rosconsole, debian: ros-kinetic-rosconsole}
 rosconsole_bridge: {ubuntu: ros-kinetic-rosconsole-bridge}
 roscpp: {ubuntu: ros-kinetic-roscpp, debian: ros-kinetic-bare}
 roscpp_core: {ubuntu: ros-kinetic-roscpp-core, debian: ros-kinetic-roscpp-core}
