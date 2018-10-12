@@ -2176,7 +2176,7 @@ xiaoqiang_msgs: {ubuntu: ros-kinetic-xiaoqiang-msgs}
 xiaoqiang_navigation: {ubuntu: ros-kinetic-xiaoqiang-navigation}
 xiaoqiang_navigation_example: {ubuntu: ros-kinetic-xiaoqiang-navigation-example}
 xiaoqiang_server: {ubuntu: ros-kinetic-xiaoqiang-server}
-xmlrpcpp: {ubuntu: ros-kinetic-xmlrpcpp, debian: ros-kinetic-bare}
+xmlrpcpp: {ubuntu: ros-kinetic-xmlrpcpp, debian: ros-kinetic-xmlrpcpp}
 xpp: {ubuntu: ros-kinetic-xpp}
 xpp_examples: {ubuntu: ros-kinetic-xpp-examples}
 xpp_hyq: {ubuntu: ros-kinetic-xpp-hyq}

@@ -709,3 +709,39 @@ SHA1: 292b431bf2b3fe41e489388253b2e723c3f7592a
 MD5sum: 6cb48583b03a40fa9887efa0c560943e
 Description: Common service definitions.
 
+Package: ros-kinetic-xmlrpcpp
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 174
+Depends: libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), ros-kinetic-cpp-common, ros-kinetic-rostime (>= 0.6.9)
+Homepage: http://xmlrpcpp.sourceforge.net
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-xmlrpcpp/ros-kinetic-xmlrpcpp_1.12.14-0stretch_armhf.deb
+Size: 50810
+SHA256: bb39d5ddc707415b4cea6feb76af5e607703d8604943488bb10a433291d263d3
+SHA1: 352ed105bd8dfceb571e962774b8293e68cd6f8c
+MD5sum: 5fac808d5e2c4ae397333d51968a7116
+Description: XmlRpc++ is a C++ implementation of the XML-RPC protocol.
+ This version is heavily modified from the package available on SourceForge in order to support roscpp's threading model. As such, we are maintaining our own fork.
+
+Package: ros-kinetic-xmlrpcpp-dbgsym
+Source: ros-kinetic-xmlrpcpp
+Version: 1.12.14-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 404
+Depends: ros-kinetic-xmlrpcpp (= 1.12.14-0stretch)
+Homepage: http://xmlrpcpp.sourceforge.net
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-xmlrpcpp/ros-kinetic-xmlrpcpp-dbgsym_1.12.14-0stretch_armhf.deb
+Size: 376908
+SHA256: 02ff7dca0a3ae23c1a50ed9678f31e2bff5993427ac712812ca850de8884222d
+SHA1: ae648190ece28b535914deee2f40a07ef58a3bca
+MD5sum: 443dce62f184713e914833d4c50ff46d
+Description: Debug symbols for ros-kinetic-xmlrpcpp
+Build-Ids: 345ac6b01d7228edd1fa6570b658c316d34f98de
+
