@@ -557,6 +557,40 @@ MD5sum: 35b473a4061730ce7cb6e0ff30f90d45
 Description: Debug symbols for ros-kinetic-roslib
 Build-Ids: b23988ed57c60b8dd2c64d1bbdc0f8be18f62a22
 
+Package: ros-kinetic-roslz4
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Ben Charrow <bcharrow@seas.upenn.edu>
+Installed-Size: 64
+Depends: libc6 (>= 2.4), liblz4-1 (>= 0.0~r113), libpython2.7 (>= 2.7), liblz4-dev
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-roslz4/ros-kinetic-roslz4_1.12.14-0stretch_armhf.deb
+Size: 14690
+SHA256: cb7d0d8ed60cbafddb25171c0c91d1ce56caaf4d8421482a7e5095baf122922a
+SHA1: 54766361a2146322c9827c5b3e4a1c2ea136924d
+MD5sum: 1a1f53216ee4bf46819e355d9e51ea79
+Description: A Python and C++ implementation of the LZ4 streaming format.
+ Large data streams are split into blocks which are compressed using the very fast LZ4 compression algorithm.
+
+Package: ros-kinetic-roslz4-dbgsym
+Source: ros-kinetic-roslz4
+Version: 1.12.14-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ben Charrow <bcharrow@seas.upenn.edu>
+Installed-Size: 44
+Depends: ros-kinetic-roslz4 (= 1.12.14-0stretch)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-roslz4/ros-kinetic-roslz4-dbgsym_1.12.14-0stretch_armhf.deb
+Size: 25506
+SHA256: 17d29c78bc9317784b36df1e0ec80a14e1b24a13c580a0cc5f3d0eff7c47c8e4
+SHA1: da0aa4bd44e1846a1e88baaa15c077db7dd6c5cf
+MD5sum: b512ce436f9a06cb675a3fa8980b5601
+Description: Debug symbols for ros-kinetic-roslz4
+Build-Ids: 0fc5956915f67f7c2ab8ab7963e46084e1a06d5d f854d313c129fd593ec6b2a7f7d2729628951d86
+
 Package: ros-kinetic-rosmake
 Version: 1.14.4-0stretch
 Architecture: armhf
