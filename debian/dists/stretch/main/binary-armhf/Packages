@@ -68,16 +68,16 @@ Package: ros-kinetic-catkin
 Version: 0.7.14-0stretch
 Architecture: armhf
 Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
-Installed-Size: 603
+Installed-Size: 604
 Depends: cmake, google-mock, libgtest-dev, libpython2.7-stdlib, python-catkin-pkg (>> 0.4.3), python-empy, python-nose
 Homepage: http://www.ros.org/wiki/catkin
 Priority: extra
 Section: misc
 Filename: pool/main/r/ros-kinetic-catkin/ros-kinetic-catkin_0.7.14-0stretch_armhf.deb
-Size: 121314
-SHA256: 2b400c4a00c2d99c6959a319ea108abf0ffded3fc96ca498858f5c7582b8ac62
-SHA1: 32f4593a0d84496dc5019bfc3a7ef5d762c624ae
-MD5sum: 3641fbda2b63ec5ba6a8b6845c224f62
+Size: 121366
+SHA256: 7d9d017d55c33283319bc074151ae88868a3cb91f82fc8a6ad2718ae80755dbd
+SHA1: be26a2d0578ed401d7ae4e56466b4a332149f6a9
+MD5sum: f7d2beb013735b858c9e3e5a492c5f23
 Description: Low-level build system macros and infrastructure for ROS.
 
 Package: ros-kinetic-cmake-modules
