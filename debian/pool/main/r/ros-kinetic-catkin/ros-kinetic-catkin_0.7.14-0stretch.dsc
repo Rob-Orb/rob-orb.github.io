@@ -6,15 +6,15 @@ Version: 0.7.14-0stretch
 Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
 Homepage: http://www.ros.org/wiki/catkin
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 9.0.0), cmake, libpython2.7-stdlib, python-catkin-pkg (>> 0.4.3), python-empy, python-mock, python-nose
+Build-Depends: cmake, debhelper (>= 9.0.0), libpython2.7-stdlib, python-catkin-pkg (>> 0.4.3), python-empy, python-mock, python-nose
 Package-List:
  ros-kinetic-catkin deb misc extra arch=any
 Checksums-Sha1:
- 54c15859839477658c111968f10dfe365960e4a8 218060 ros-kinetic-catkin_0.7.14.orig.tar.xz
- 7d129684e4b42dcd5737d7bfed806f3723ce31f1 16032 ros-kinetic-catkin_0.7.14-0stretch.debian.tar.xz
+ 69c10fa4fdd1b3923b234536cc61d85a924a2cea 309197 ros-kinetic-catkin_0.7.14.orig.tar.gz
+ efff9178801e327e5d31cedc3022c232c58fc3c7 10512 ros-kinetic-catkin_0.7.14-0stretch.debian.tar.xz
 Checksums-Sha256:
- fbea3790e6d2997f3a4a83cdfcd548f4de8d89fd3793df48df85d8a406536021 218060 ros-kinetic-catkin_0.7.14.orig.tar.xz
- bf7ffa56154640203ad2a552c0a91bacb67ff31cdfe9795850ae186fc7152055 16032 ros-kinetic-catkin_0.7.14-0stretch.debian.tar.xz
+ c62e9ae11b3eb642f4ff12436f36d656aeb5cee79a0cae22df53eb301035e067 309197 ros-kinetic-catkin_0.7.14.orig.tar.gz
+ bcc91f7559809481b1638a7d2f22fb4dc3073e8062bc03d92a98549104619273 10512 ros-kinetic-catkin_0.7.14-0stretch.debian.tar.xz
 Files:
- 2399968850f2d93ce93d01da0c5d0b43 218060 ros-kinetic-catkin_0.7.14.orig.tar.xz
- 7fd3c0e7e7f5c9f07474bb71c621fcbc 16032 ros-kinetic-catkin_0.7.14-0stretch.debian.tar.xz
+ 647578b700460cf41abd2035c0402ed8 309197 ros-kinetic-catkin_0.7.14.orig.tar.gz
+ d61bc7eb4871dce0fd93c27d2597b202 10512 ros-kinetic-catkin_0.7.14-0stretch.debian.tar.xz
