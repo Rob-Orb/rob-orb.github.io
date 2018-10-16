@@ -2,14 +2,14 @@ Package: orb-core
 Version: 0.0.1-0
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
-Installed-Size: 62
+Installed-Size: 61
 Priority: optional
 Section: base
 Filename: pool/main/o/orb-core/orb-core_0.0.1-0_armhf.deb
-Size: 16226
-SHA256: bf2328e009e25fc3f0434388888ce5af6f3667f75d8a45d1b3dd57b45b55c7fe
-SHA1: 2f8ea104f7aa28495b5486c9aad9a7102ec22be9
-MD5sum: 1e9d6841f48c86b683765b0343080383
+Size: 16174
+SHA256: 3525f515d51646cfa02e893956c34110983004921e29ba5f4a096c5429af207e
+SHA1: b38b668b28d65f6e47f74113ba20a56f87c9f5f2
+MD5sum: 0184d1340c341d5ddf961820c645f3bc
 Description: Helper for the Raspberry Pi Rob-Orb shields
  This binary gives you the power to control different Rob-Orb shields.
 
@@ -35,15 +35,15 @@ Package: orb-motor
 Version: 0.0.1-0
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
-Installed-Size: 61
+Installed-Size: 60
 Depends: orb-core, wiringPi
 Priority: optional
 Section: base
 Filename: pool/main/o/orb-motor/orb-motor_0.0.1-0_armhf.deb
-Size: 15970
-SHA256: 0bd26e626b3cd23121a0b712ac4b763c6093e72558180055ec2ddf75c99b63ec
-SHA1: d1a66840aa6dbc936a5ea4bab68ee5b92c97d988
-MD5sum: 8f04d36bf5c2e43dd67e79ccda5dfa94
+Size: 15940
+SHA256: 49042a5b9d1ae1e46b2b3a238fa93e04112e992024391ce1083a52526449567c
+SHA1: 7f4732a06eda156104bdaf0560cbb186d27618ed
+MD5sum: 89ed5a07276d6cff51fbe05bdfa6b6e6
 Description: Orb Application to control the motors
  This binary gives you the power to control different Rob-Orb shields.
 
@@ -69,15 +69,15 @@ Package: orb-upload
 Version: 0.0.1-0
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
-Installed-Size: 61
+Installed-Size: 60
 Depends: orb-core, picberry
 Priority: optional
 Section: base
 Filename: pool/main/o/orb-upload/orb-upload_0.0.1-0_armhf.deb
-Size: 16718
-SHA256: 938964d1c59a54dbb4cff7de070441a34578942eb8ef16963bc62dc3c7b46214
-SHA1: 12762d8042c6cd486ff756cef52a47f008168bcb
-MD5sum: a9661d331f1f5db81420bb815effe4ed
+Size: 16690
+SHA256: c0d1bce0b1dfcb21dc879cc74c85505b4712028b5f4af44034d2999d2fe5b63d
+SHA1: 22cb229cf0dcfc8c28322e6c1b7bd79f1e925f71
+MD5sum: b9b63c0e4fe2e790cf77eb1298d64bff
 Description: Orb Application to upload firmware to PIC
  This binary gives you the power to control different Rob-Orb shields.
 
