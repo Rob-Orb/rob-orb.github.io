@@ -1,3 +1,70 @@
+Package: orb-core
+Version: 0.0.1-0
+Architecture: armhf
+Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
+Installed-Size: 62
+Priority: optional
+Section: base
+Filename: pool/main/o/orb-core/orb-core_0.0.1-0_armhf.deb
+Size: 16226
+SHA256: bf2328e009e25fc3f0434388888ce5af6f3667f75d8a45d1b3dd57b45b55c7fe
+SHA1: 2f8ea104f7aa28495b5486c9aad9a7102ec22be9
+MD5sum: 1e9d6841f48c86b683765b0343080383
+Description: Helper for the Raspberry Pi Rob-Orb shields
+ This binary gives you the power to control different Rob-Orb shields.
+
+Package: orb-core-dbgsym
+Source: orb-core
+Version: 0.0.1-0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
+Installed-Size: 41
+Depends: orb-core (= 0.0.1-0)
+Priority: extra
+Section: debug
+Filename: pool/main/o/orb-core/orb-core-dbgsym_0.0.1-0_armhf.deb
+Size: 27812
+SHA256: ee6ec84e810cc6cfa1be31607dfd3372558c478449662994b374b0ad045cf91b
+SHA1: 26f6462b3900cfb61555e3e4b1cefb59ec3f689c
+MD5sum: 879891719a402663a2d1a544a42bf4ba
+Description: Debug symbols for orb-core
+Build-Ids: 9800f3452977d6838d32d4a25c3b44ec348acc93
+
+Package: orb-upload
+Version: 0.0.1-0
+Architecture: armhf
+Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
+Installed-Size: 61
+Depends: orb-core, picberry
+Priority: optional
+Section: base
+Filename: pool/main/o/orb-upload/orb-upload_0.0.1-0_armhf.deb
+Size: 16718
+SHA256: 938964d1c59a54dbb4cff7de070441a34578942eb8ef16963bc62dc3c7b46214
+SHA1: 12762d8042c6cd486ff756cef52a47f008168bcb
+MD5sum: a9661d331f1f5db81420bb815effe4ed
+Description: Orb Application to upload firmware to PIC
+ This binary gives you the power to control different Rob-Orb shields.
+
+Package: orb-upload-dbgsym
+Source: orb-upload
+Version: 0.0.1-0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
+Installed-Size: 44
+Depends: orb-upload (= 0.0.1-0)
+Priority: extra
+Section: debug
+Filename: pool/main/o/orb-upload/orb-upload-dbgsym_0.0.1-0_armhf.deb
+Size: 30094
+SHA256: fe5104fdebfb538c3b1094c0016eab43b5fb740657a6420020fcee70b3f48608
+SHA1: 180e3c49f2eeb38dfe61ab8cf2c6041981f9f241
+MD5sum: e02c8ed65a720637334bf7a40ac34a9e
+Description: Debug symbols for orb-upload
+Build-Ids: 91fe72f059a452868da7710f71b070ffe43e1794
+
 Package: picberry
 Version: 0.0.1-1
 Architecture: armhf
