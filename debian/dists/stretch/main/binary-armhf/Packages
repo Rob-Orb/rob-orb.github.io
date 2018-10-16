@@ -36,14 +36,14 @@ Version: 0.0.1-0
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Installed-Size: 60
-Depends: orb-core, wiringPi
+Depends: orb-core, wiringpi
 Priority: optional
 Section: base
 Filename: pool/main/o/orb-motor/orb-motor_0.0.1-0_armhf.deb
 Size: 15940
-SHA256: 49042a5b9d1ae1e46b2b3a238fa93e04112e992024391ce1083a52526449567c
-SHA1: 7f4732a06eda156104bdaf0560cbb186d27618ed
-MD5sum: 89ed5a07276d6cff51fbe05bdfa6b6e6
+SHA256: d4e3760f30d0b3245a2738d4978511dc83bce7be2e017bf2df736eb4cfb05e7e
+SHA1: c7d810bfa4d98044f677efb04a38f5d4adf67652
+MD5sum: d3b6fd5a1c268504fc4afde625662d33
 Description: Orb Application to control the motors
  This binary gives you the power to control different Rob-Orb shields.
 

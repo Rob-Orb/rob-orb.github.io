@@ -9,11 +9,11 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List:
  orb-motor deb base optional arch=armhf
 Checksums-Sha1:
- 2a4d14b0b10967d028d761a58f96018c5f1b45d0 47724 orb-motor_0.0.1.orig.tar.gz
- 7da71731094082fe4e42fab58d2d7cbde5bfc2b2 12320 orb-motor_0.0.1-0.debian.tar.xz
+ 702644f2d1c201467341286df39fb4868c15c621 47720 orb-motor_0.0.1.orig.tar.gz
+ da40a59810d3266239a2f8af330c45d9b725e832 12320 orb-motor_0.0.1-0.debian.tar.xz
 Checksums-Sha256:
- df18a7881ea1d74056fac23c73f33e88025c43e2c44c6139274295c8fc3b4dcb 47724 orb-motor_0.0.1.orig.tar.gz
- f5f16e32b0f8de7d52cd74028ed176b0b7c27678b23d6d37c06cb53ab2c9798c 12320 orb-motor_0.0.1-0.debian.tar.xz
+ ebb65500470f945411aff85f5f16f498f3043231da0512aa5335741c8e67193f 47720 orb-motor_0.0.1.orig.tar.gz
+ 35e2ff7f6847aee440eb2e1c9e4a361ae2483c0fe420fbf1a600efc501f445d9 12320 orb-motor_0.0.1-0.debian.tar.xz
 Files:
- 09b0d0807d1db8d03277b49db81147c8 47724 orb-motor_0.0.1.orig.tar.gz
- 28055b21fc84459cab84230cecf4c067 12320 orb-motor_0.0.1-0.debian.tar.xz
+ 3c8394dc49b16486a569b2a58db1a81c 47720 orb-motor_0.0.1.orig.tar.gz
+ 682279facc7262b7ff7a04c1c8795011 12320 orb-motor_0.0.1-0.debian.tar.xz
