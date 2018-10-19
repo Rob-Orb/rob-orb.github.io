@@ -638,6 +638,23 @@ MD5sum: 41a54c3b51f558749e808ceb170ac84d
 Description: rosgraph contains the rosgraph command-line tool, which prints information about the ROS Computation Graph.
  It also provides an internal library that can be used by graphical tools.
 
+Package: ros-kinetic-rosgraph-msgs
+Version: 1.11.2-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 232
+Depends: ros-kinetic-message-runtime, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/rosgraph_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosgraph-msgs/ros-kinetic-rosgraph-msgs_1.11.2-0stretch_armhf.deb
+Size: 25182
+SHA256: a223b8a8affda856cbe25cd8cf59a6fa15bb2d6cd5608cbcda2c32b52c87ab9f
+SHA1: b88821f43191a0e67e2a5a22c86e3cfc06f9af1a
+MD5sum: b1ad5405428809d52e4037102cff6ba4
+Description: Messages relating to the ROS Computation Graph.
+ These are generally considered to be low-level messages that end users do not interact with.
+
 Package: ros-kinetic-roslang
 Version: 1.14.4-0stretch
 Architecture: armhf
