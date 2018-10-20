@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-gen
 Package-List:
  ros-kinetic-std-msgs deb misc extra arch=any
 Checksums-Sha1:
- bde0c7c5331f5fa020778661a5b2b0655208abab 7104 ros-kinetic-std-msgs_0.5.11.orig.tar.xz
- e944da0edd73dfd29580af25621b06742e53750e 1756 ros-kinetic-std-msgs_0.5.11-0stretch.debian.tar.xz
+ 981bff400a333e3b2dac10cb972d5b2e2b0cb852 6570 ros-kinetic-std-msgs_0.5.11.orig.tar.gz
+ f90fd5caa27e711657feb934c7aea1e997b8efb6 1760 ros-kinetic-std-msgs_0.5.11-0stretch.debian.tar.xz
 Checksums-Sha256:
- 167d0a58bf7108d6a3571ea6d52872816d23e8d47cc5905ed6a1c936eb11d489 7104 ros-kinetic-std-msgs_0.5.11.orig.tar.xz
- 2350e4720cfb345d44db57fe5c3e50a8584e5bd74a9ea007dfe58234e48b75ec 1756 ros-kinetic-std-msgs_0.5.11-0stretch.debian.tar.xz
+ 37b01831e88244106e6f6cc25bd973d1fae68cda9705ead93c36b6e071ccedf4 6570 ros-kinetic-std-msgs_0.5.11.orig.tar.gz
+ 473b8c0c98c309a516ff4b53cf3a481e76e012bde54e86bec1d06187ab20e32c 1760 ros-kinetic-std-msgs_0.5.11-0stretch.debian.tar.xz
 Files:
- 870c69938759722be2ae818884d20cad 7104 ros-kinetic-std-msgs_0.5.11.orig.tar.xz
- 8c84d1da3c3b82648d3fd9be0a59467d 1756 ros-kinetic-std-msgs_0.5.11-0stretch.debian.tar.xz
+ 6250cf3dabea324b958e85a7d758263b 6570 ros-kinetic-std-msgs_0.5.11.orig.tar.gz
+ 69f395fc3cefd4a0a6c680a4ec49ff33 1760 ros-kinetic-std-msgs_0.5.11-0stretch.debian.tar.xz

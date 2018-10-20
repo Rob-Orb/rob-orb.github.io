@@ -865,16 +865,16 @@ Package: ros-kinetic-std-msgs
 Version: 0.5.11-0stretch
 Architecture: armhf
 Maintainer: Tully Foote <tfoote@osrfoundation.org>
-Installed-Size: 98
+Installed-Size: 1162
 Depends: ros-kinetic-message-runtime
 Homepage: http://www.ros.org/wiki/std_msgs
 Priority: extra
 Section: misc
 Filename: pool/main/r/ros-kinetic-std-msgs/ros-kinetic-std-msgs_0.5.11-0stretch_armhf.deb
-Size: 10502
-SHA256: cb44f5942f39c53d293d862a0ec79da383e5dd3c3d25627db4e365dbb7ddea1b
-SHA1: 8cadcaac833d779eeacf149ae17b4beb9429dd05
-MD5sum: 5e4e800c8e3483c1a938628155285eac
+Size: 56242
+SHA256: 5f70ed1d93b456170ce2a52038d64d20a11d568434497b426d396614b549f216
+SHA1: 37b3cf97c6a013e4e30dba38e23d28a807408cd7
+MD5sum: 4d170f402d3da6f1aa86530a7f5be161
 Description: Standard ROS Messages including common message types representing primitive data types and other basic message constructs, such as multiarrays.
  For common, generic robot-specific message types, please see common_msgs.
 
