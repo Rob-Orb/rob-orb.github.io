@@ -535,6 +535,23 @@ MD5sum: 8e837f0c52befedd99551936a6b379b9
 Description: Debug symbols for ros-kinetic-rosconsole
 Build-Ids: 300b1c070a72b078d966320624a28e0e75c3d239 7e4703c184172a7a1bf7449ead0707e770663e16 c9ae5333df5899a86f2d77b0881eb26186eb6509
 
+Package: ros-kinetic-roscpp
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 2241
+Depends: ros-kinetic-cpp-common (>= 0.3.17), ros-kinetic-message-runtime, ros-kinetic-rosconsole, ros-kinetic-roscpp-serialization, ros-kinetic-roscpp-traits (>= 0.3.17), ros-kinetic-rosgraph-msgs (>= 1.10.3), ros-kinetic-rostime (>= 0.6.4), ros-kinetic-std-msgs, ros-kinetic-xmlrpcpp, libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.9), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), liblog4cxx10v5, libstdc++6 (>= 5.2)
+Homepage: http://ros.org/wiki/roscpp
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-roscpp/ros-kinetic-roscpp_1.12.14-0stretch_armhf.deb
+Size: 443516
+SHA256: 470abd33e79a5295da422fc40122345f8551d3fcd00524c8c6102346291bb027
+SHA1: a024a891ae0c07c680cdf743a24c624d78f3a2d1
+MD5sum: d7b8cbe0153851358071bcf13b597e7e
+Description: roscpp is a C++ implementation of ROS.
+ It provides a client library that enables C++ programmers to quickly interface with ROS Topics, Services, and Parameters. roscpp is the most widely used ROS client library and is designed to be the high-performance library for ROS.
+
 Package: ros-kinetic-roscpp-core
 Version: 0.6.11-0stretch
 Architecture: armhf
@@ -550,6 +567,25 @@ SHA256: 2aaf5a1e0a38864c3159b19ca2d109f179885eae9ee2bce3cac149c84c9fd59b
 SHA1: 860b09e6a35b24464cb6a679630e6ffa96532c2b
 MD5sum: e7e0a9d7afaa463b096173641cae6f56
 Description: Underlying data libraries for roscpp messages.
+
+Package: ros-kinetic-roscpp-dbgsym
+Source: ros-kinetic-roscpp
+Version: 1.12.14-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 9435
+Depends: ros-kinetic-roscpp (= 1.12.14-0stretch)
+Homepage: http://ros.org/wiki/roscpp
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-roscpp/ros-kinetic-roscpp-dbgsym_1.12.14-0stretch_armhf.deb
+Size: 9170050
+SHA256: 602ccd04e03008b28214401a12a84e5750de3e41d0a376a9fa5b3b0b4f467817
+SHA1: 7b9c73b73a679edb35981bf39a093d26d0bca886
+MD5sum: 29ac7a73b4e0940fd19c15655bdf4c70
+Description: Debug symbols for ros-kinetic-roscpp
+Build-Ids: 33043987fdaa54313bc911149ea2c9d2bedc6f3f
 
 Package: ros-kinetic-roscpp-serialization
 Version: 0.6.11-0stretch
