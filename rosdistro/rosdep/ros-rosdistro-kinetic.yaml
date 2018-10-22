@@ -1597,7 +1597,7 @@ rosclean: {ubuntu: ros-kinetic-rosclean, debian: ros-kinetic-rosclean}
 roscompile: {ubuntu: ros-kinetic-roscompile}
 rosconsole: {ubuntu: ros-kinetic-rosconsole, debian: ros-kinetic-rosconsole}
 rosconsole_bridge: {ubuntu: ros-kinetic-rosconsole-bridge}
-roscpp: {ubuntu: ros-kinetic-roscpp, debian: ros-kinetic-bare}
+roscpp: {ubuntu: ros-kinetic-roscpp, debian: ros-kinetic-roscpp}
 roscpp_core: {ubuntu: ros-kinetic-roscpp-core, debian: ros-kinetic-roscpp-core}
 roscpp_serialization: {ubuntu: ros-kinetic-roscpp-serialization, debian: ros-kinetic-roscpp-serialization}
 roscpp_traits: {ubuntu: ros-kinetic-roscpp-traits, debian: ros-kinetic-roscpp-traits}
