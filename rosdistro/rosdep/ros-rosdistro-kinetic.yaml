@@ -1649,7 +1649,7 @@ rosparam_shortcuts: {ubuntu: ros-kinetic-rosparam-shortcuts}
 rospatlite: {ubuntu: ros-kinetic-rospatlite}
 rospilot: {ubuntu: ros-kinetic-rospilot}
 rosping: {ubuntu: ros-kinetic-rosping}
-rospy: {ubuntu: ros-kinetic-rospy, debian: ros-kinetic-bare}
+rospy: {ubuntu: ros-kinetic-rospy, debian: ros-kinetic-rospy}
 rospy_message_converter: {ubuntu: ros-kinetic-rospy-message-converter}
 rospy_tutorials: {ubuntu: ros-kinetic-rospy-tutorials}
 rosrt: {ubuntu: ros-kinetic-rosrt}

@@ -845,6 +845,23 @@ MD5sum: 006d72db076189628b16693ba06bd0f5
 Description: Debug symbols for ros-kinetic-rospack
 Build-Ids: 4b731625fddec6d3371a8a88f9c2c69962c6dadf 6ca18caa5762175a7f04f03a72fdfb2e987e3b63 7b29983623a2fdfe01531c80c495b591e7737225
 
+Package: ros-kinetic-rospy
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 716
+Depends: python-numpy, python-rospkg, python-yaml, ros-kinetic-genpy, ros-kinetic-roscpp, ros-kinetic-rosgraph, ros-kinetic-rosgraph-msgs (>= 1.10.3), ros-kinetic-roslib, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/rospy
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rospy/ros-kinetic-rospy_1.12.14-0stretch_armhf.deb
+Size: 129792
+SHA256: 8501b0d915c212a6cbca4c5352352c77e74c8517003760990472eb2152a86541
+SHA1: dce2e0abd554543463ec8271b811723935c8a196
+MD5sum: c9afec956c0b9dce3555dbfaa63078e2
+Description: rospy is a pure Python client library for ROS.
+ The rospy client API enables Python programmers to quickly interface with ROS Topics, Services, and Parameters. The design of rospy favors implementation speed (i.e. developer time) over runtime performance so that algorithms can be quickly prototyped and tested within ROS. It is also ideal for non-critical-path code, such as configuration and initialization code. Many of the ROS tools are written in rospy to take advantage of the type introspection capabilities. Many of the ROS tools, such as rostopic and rosservice, are built on top of rospy.
+
 Package: ros-kinetic-rostime
 Version: 0.6.11-0stretch
 Architecture: armhf
