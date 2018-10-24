@@ -845,6 +845,23 @@ MD5sum: 006d72db076189628b16693ba06bd0f5
 Description: Debug symbols for ros-kinetic-rospack
 Build-Ids: 4b731625fddec6d3371a8a88f9c2c69962c6dadf 6ca18caa5762175a7f04f03a72fdfb2e987e3b63 7b29983623a2fdfe01531c80c495b591e7737225
 
+Package: ros-kinetic-rosparam
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 78
+Depends: python-yaml, ros-kinetic-rosgraph
+Homepage: http://ros.org/wiki/rosparam
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosparam/ros-kinetic-rosparam_1.12.14-0stretch_armhf.deb
+Size: 17154
+SHA256: 3e4eb74bd5641746147860984274b2fb4f30ad7a851d93026899538f45cf89f2
+SHA1: 43f6ef64638954c369605da6696f2c556f072ca0
+MD5sum: 830a0691f8edea4982d127fcc59650c8
+Description: rosparam contains the rosparam command-line tool for getting and setting ROS Parameters on the Parameter Server using YAML-encoded files.
+ It also contains an experimental library for using YAML with the Parameter Server. This library is intended for internal use only. rosparam can be invoked within a roslaunch file.
+
 Package: ros-kinetic-rospy
 Version: 1.12.14-0stretch
 Architecture: armhf

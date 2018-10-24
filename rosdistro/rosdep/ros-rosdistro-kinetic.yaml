@@ -1643,7 +1643,7 @@ rosnode: {ubuntu: ros-kinetic-rosnode, debian: ros-kinetic-bare}
 rosnode_rtc: {ubuntu: ros-kinetic-rosnode-rtc}
 rosout: {ubuntu: ros-kinetic-rosout, debian: ros-kinetic-bare}
 rospack: {ubuntu: ros-kinetic-rospack, debian: ros-kinetic-rospack}
-rosparam: {ubuntu: ros-kinetic-rosparam, debian: ros-kinetic-bare}
+rosparam: {ubuntu: ros-kinetic-rosparam, debian: ros-kinetic-rosparam}
 rosparam_handler: {ubuntu: ros-kinetic-rosparam-handler}
 rosparam_shortcuts: {ubuntu: ros-kinetic-rosparam-shortcuts}
 rospatlite: {ubuntu: ros-kinetic-rospatlite}
