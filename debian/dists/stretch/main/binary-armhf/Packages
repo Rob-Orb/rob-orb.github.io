@@ -708,6 +708,23 @@ MD5sum: d71c0b9a66536735159facc7c0a2cfaa
 Description: roslang is a common package that all ROS client libraries depend on.
  This is mainly used to find client libraries (via 'rospack depends-on1 roslang').
 
+Package: ros-kinetic-roslaunch
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 675
+Depends: python-paramiko, python-rospkg (>= 1.0.37), python-yaml, ros-kinetic-rosclean, ros-kinetic-rosgraph-msgs, ros-kinetic-roslib, ros-kinetic-rosmaster (>= 1.11.16), ros-kinetic-rosout, ros-kinetic-rosparam, ros-kinetic-rosunit (>= 1.13.3)
+Homepage: http://ros.org/wiki/roslaunch
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-roslaunch/ros-kinetic-roslaunch_1.12.14-0stretch_armhf.deb
+Size: 132010
+SHA256: 61419b486491450d93e60913f40b5eb08085975ea206047eabc7bd6d79b9d268
+SHA1: e56537b35e3e2a1e84488918ce0899dad6c23773
+MD5sum: a98cc491690d39a3af7ebcd4ff9c5de0
+Description: roslaunch is a tool for easily launching multiple ROS nodes locally and remotely via SSH, as well as setting parameters on the Parameter Server.
+ It includes options to automatically respawn processes that have already died. roslaunch takes in one or more XML configuration files (with the .launch extension) that specify the parameters to set and nodes to launch, as well as the machines that they should be run on.
+
 Package: ros-kinetic-roslib
 Version: 1.14.4-0stretch
 Architecture: armhf
