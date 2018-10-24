@@ -1583,7 +1583,7 @@ ros_wild: {ubuntu: ros-kinetic-ros-wild}
 rosapi: {ubuntu: ros-kinetic-rosapi}
 rosatomic: {ubuntu: ros-kinetic-rosatomic}
 rosauth: {ubuntu: ros-kinetic-rosauth}
-rosbag: {ubuntu: ros-kinetic-rosbag, debian: ros-kinetic-bare}
+rosbag: {ubuntu: ros-kinetic-rosbag, debian: ros-kinetic-rosbag}
 rosbag_migration_rule: {ubuntu: ros-kinetic-rosbag-migration-rule}
 rosbag_storage: {ubuntu: ros-kinetic-rosbag-storage, debian: ros-kinetic-rosbag-storage}
 rosbaglive: {ubuntu: ros-kinetic-rosbaglive}

@@ -402,6 +402,42 @@ SHA1: 0085e2504666b814b2751735ecd7aa5a538b3559
 MD5sum: 1e6bf51c46f454f99f473eb9c1af6e55
 Description: The package provides the environment variables `ROS_VERSION`, `ROS_DISTRO`, `ROS_PACKAGE_PATH`, and `ROS_ETC_DIR`.
 
+Package: ros-kinetic-rosbag
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 1152
+Depends: libboost-all-dev, python-rospkg, ros-kinetic-genmsg, ros-kinetic-genpy, ros-kinetic-rosbag-storage, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-std-srvs, ros-kinetic-topic-tools, ros-kinetic-xmlrpcpp, libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libbz2-1.0, libc6 (>= 2.15), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), liblog4cxx10v5, liblz4-1 (>= 0.0~r113), libstdc++6 (>= 5.2)
+Homepage: http://ros.org/wiki/rosbag
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosbag/ros-kinetic-rosbag_1.12.14-0stretch_armhf.deb
+Size: 254218
+SHA256: 249616750c2cada8ab4ab5d85785a5d60a0d5ce2b4195a7c4b4f9f995e4ba890
+SHA1: 09105eab8eade057ce92a9b3b0a4a0afa7f01e1a
+MD5sum: b89374f8195f4560943ad824c06efae0
+Description: This is a set of tools for recording from and playing back to ROS topics.
+ It is intended to be high performance and avoids deserialization and reserialization of the messages.
+
+Package: ros-kinetic-rosbag-dbgsym
+Source: ros-kinetic-rosbag
+Version: 1.12.14-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 2633
+Depends: ros-kinetic-rosbag (= 1.12.14-0stretch)
+Homepage: http://ros.org/wiki/rosbag
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-rosbag/ros-kinetic-rosbag-dbgsym_1.12.14-0stretch_armhf.deb
+Size: 2368596
+SHA256: bda59c835215c5aeee33c1a3134bebc1bed6c2400cb3197aca003a5d183ee8c1
+SHA1: 06a8ef97980c3ce48998f8eba3803cb2f0d5f820
+MD5sum: 806affee52b7fda727c22e34926429d3
+Description: Debug symbols for ros-kinetic-rosbag
+Build-Ids: 425352561dd51f7ac92c9d39d16beeedefd79a4f a17367d78508db63e628d6fefe0ce78ad90d9637 e5ae1fdb86b030bc2776faeb6f8e9abad4740039
+
 Package: ros-kinetic-rosbag-storage
 Version: 1.12.14-0stretch
 Architecture: armhf
