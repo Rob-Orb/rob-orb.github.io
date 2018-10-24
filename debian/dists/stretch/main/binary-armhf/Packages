@@ -1020,16 +1020,16 @@ Package: ros-kinetic-std-srvs
 Version: 1.11.2-0stretch
 Architecture: armhf
 Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
-Installed-Size: 33
+Installed-Size: 201
 Depends: ros-kinetic-message-runtime
 Homepage: http://ros.org/wiki/std_srvs
 Priority: extra
 Section: misc
 Filename: pool/main/r/ros-kinetic-std-srvs/ros-kinetic-std-srvs_1.11.2-0stretch_armhf.deb
-Size: 5474
-SHA256: 9da983ff2d0d9ba6f315efa1dad89862d69f7ef1e56e4d7f88e333c14c6f2f8d
-SHA1: 292b431bf2b3fe41e489388253b2e723c3f7592a
-MD5sum: 6cb48583b03a40fa9887efa0c560943e
+Size: 18506
+SHA256: b5fd99260c567ce5be54d5cb7baa847ada9f70bb5dbf719a5a3354e7b3a57151
+SHA1: 71fbd8359bc22cdc21a829432decbf90f433aad5
+MD5sum: 84cd8ab2ec8cab3885cbcdc235b0af17
 Description: Common service definitions.
 
 Package: ros-kinetic-topic-tools

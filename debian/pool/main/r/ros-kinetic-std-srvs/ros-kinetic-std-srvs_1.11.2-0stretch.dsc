@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-gen
 Package-List:
  ros-kinetic-std-srvs deb misc extra arch=any
 Checksums-Sha1:
- d2609e9e548eb3760c524c196690da95806a97e2 2920 ros-kinetic-std-srvs_1.11.2.orig.tar.xz
- 7bcb1e88c28c9fc8bf38d7587f08e617f36d6759 1964 ros-kinetic-std-srvs_1.11.2-0stretch.debian.tar.xz
+ ac0e80c29b22a84f71d087a81f7bdf4fe4113075 1432 ros-kinetic-std-srvs_1.11.2.orig.tar.gz
+ 3aee30355eaa9171fdd8927e7b8f1bdddf7fbf15 1960 ros-kinetic-std-srvs_1.11.2-0stretch.debian.tar.xz
 Checksums-Sha256:
- 268358ec9174691c257902d6f72f069088bbc72ea7e20c3238a838486e935a85 2920 ros-kinetic-std-srvs_1.11.2.orig.tar.xz
- ae789f622bdf62d1dcfc535783d50218a2b25f3f83408113b8c00a96df148dac 1964 ros-kinetic-std-srvs_1.11.2-0stretch.debian.tar.xz
+ 52768170de3951131067b66e5aa4d4c4c9a80488cfc6dee3884a6ddda50ba3ca 1432 ros-kinetic-std-srvs_1.11.2.orig.tar.gz
+ ad535c689318b923383f9d1116111787a12590fd6f9b8fd8955b4ffc25312859 1960 ros-kinetic-std-srvs_1.11.2-0stretch.debian.tar.xz
 Files:
- fca1d0c136cf4d52268e7dbc984d69cd 2920 ros-kinetic-std-srvs_1.11.2.orig.tar.xz
- d685a9bd9302ba8ed242d96303ec55a7 1964 ros-kinetic-std-srvs_1.11.2-0stretch.debian.tar.xz
+ fd3444c5e6f4c90e49cb26257e2b36a3 1432 ros-kinetic-std-srvs_1.11.2.orig.tar.gz
+ 2162aa5f8175969425d9a4ce445e5642 1960 ros-kinetic-std-srvs_1.11.2-0stretch.debian.tar.xz
