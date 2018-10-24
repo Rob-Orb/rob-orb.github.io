@@ -1032,6 +1032,42 @@ SHA1: 292b431bf2b3fe41e489388253b2e723c3f7592a
 MD5sum: 6cb48583b03a40fa9887efa0c560943e
 Description: Common service definitions.
 
+Package: ros-kinetic-topic-tools
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 1026
+Depends: ros-kinetic-message-runtime, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-rostime, ros-kinetic-std-msgs, ros-kinetic-xmlrpcpp, libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), liblog4cxx10v5, libstdc++6 (>= 5.2)
+Homepage: http://ros.org/wiki/topic_tools
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-topic-tools/ros-kinetic-topic-tools_1.12.14-0stretch_armhf.deb
+Size: 121474
+SHA256: d469f712cdb99f10dd9fa2ae84d735a3629fab4b76a0856e56ffe28ca0d544ba
+SHA1: 4db2cb5f3c20a32efbe5d983b7071c364e2d197f
+MD5sum: a2ac1a6c6075c30062c9c72afe742224
+Description: Tools for directing, throttling, selecting, and otherwise messing with ROS topics at a meta level.
+ None of the programs in this package actually know about the topics whose streams they are altering; instead, these tools deal with messages as generic binary blobs. This means they can be applied to any ROS topic.
+
+Package: ros-kinetic-topic-tools-dbgsym
+Source: ros-kinetic-topic-tools
+Version: 1.12.14-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 1911
+Depends: ros-kinetic-topic-tools (= 1.12.14-0stretch)
+Homepage: http://ros.org/wiki/topic_tools
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-topic-tools/ros-kinetic-topic-tools-dbgsym_1.12.14-0stretch_armhf.deb
+Size: 1675984
+SHA256: f93f574f8f15a15261dd8f4471f9533164cc8613661ba320cdf1d6f1188a9352
+SHA1: 3ef9b16519798846eaaff3c518848c4b671d76d3
+MD5sum: d72d5cf504064e69af31227b1ff13ddb
+Description: Debug symbols for ros-kinetic-topic-tools
+Build-Ids: 13ff0126570a3ee2b29b0366d3b82776af7b10d9 15b4a6fd4b57f00a25c19bd6b7b4d71f690c1296 1863433ebafb210be8d1dd767d3f560289155b97 2b901e168fa6d09e4d5bfd14190abf40e0ac5f9d 49a243f822ebf4ef52e33f9abee309757ab2486b 568f23d8ffd6d83ae70f39466b426bcebb378bf8 60299a016e16fe7811f95fa0c565b78e936c911e
+
 Package: ros-kinetic-xmlrpcpp
 Version: 1.12.14-0stretch
 Architecture: armhf

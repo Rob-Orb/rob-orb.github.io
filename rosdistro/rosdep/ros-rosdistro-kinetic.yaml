@@ -1969,7 +1969,7 @@ thormang3_walking_module_msgs: {ubuntu: ros-kinetic-thormang3-walking-module-msg
 tile_map: {ubuntu: ros-kinetic-tile-map}
 timestamp_tools: {ubuntu: ros-kinetic-timestamp-tools}
 tiny_slam: {ubuntu: ros-kinetic-tiny-slam}
-topic_tools: {ubuntu: ros-kinetic-topic-tools, debian: ros-kinetic-bare}
+topic_tools: {ubuntu: ros-kinetic-topic-tools, debian: ros-kinetic-topic-tools}
 towr: {ubuntu: ros-kinetic-towr}
 towr_ros: {ubuntu: ros-kinetic-towr-ros}
 tra1_bringup: {ubuntu: ros-kinetic-tra1-bringup}
