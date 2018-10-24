@@ -1641,7 +1641,7 @@ rosmon: {ubuntu: ros-kinetic-rosmon}
 rosmsg: {ubuntu: ros-kinetic-rosmsg, debian: ros-kinetic-bare}
 rosnode: {ubuntu: ros-kinetic-rosnode, debian: ros-kinetic-bare}
 rosnode_rtc: {ubuntu: ros-kinetic-rosnode-rtc}
-rosout: {ubuntu: ros-kinetic-rosout, debian: ros-kinetic-bare}
+rosout: {ubuntu: ros-kinetic-rosout, debian: ros-kinetic-rosout}
 rospack: {ubuntu: ros-kinetic-rospack, debian: ros-kinetic-rospack}
 rosparam: {ubuntu: ros-kinetic-rosparam, debian: ros-kinetic-rosparam}
 rosparam_handler: {ubuntu: ros-kinetic-rosparam-handler}
