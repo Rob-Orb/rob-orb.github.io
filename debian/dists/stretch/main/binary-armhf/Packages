@@ -1254,6 +1254,22 @@ MD5sum: 9cd4bcc1d9def7374668f4923f6acb55
 Description: roswtf is a tool for diagnosing issues with a running ROS system.
  Think of it as a FAQ implemented in code.
 
+Package: ros-kinetic-sensor-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 1921
+Depends: ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/sensor_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-sensor-msgs/ros-kinetic-sensor-msgs_1.12.6-0stretch_armhf.deb
+Size: 135302
+SHA256: 38de3d86289c5f8edb10e53bab8f32793c1872fd9fd927fe453f9c60916b8236
+SHA1: 12dc72a7393dd14367e3ee616e6a8c934e9b90e9
+MD5sum: e01dc7ff8c39aea616735dab18495564
+Description: This package defines messages for commonly used sensors, including cameras and scanning laser rangefinders.
+
 Package: ros-kinetic-std-msgs
 Version: 0.5.11-0stretch
 Architecture: armhf

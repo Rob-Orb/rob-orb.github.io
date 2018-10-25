@@ -1795,7 +1795,7 @@ segway_rmp: {ubuntu: ros-kinetic-segway-rmp}
 self_test: {ubuntu: ros-kinetic-self-test}
 semantic_point_annotator: {ubuntu: ros-kinetic-semantic-point-annotator}
 sensor_module_tutorial: {ubuntu: ros-kinetic-sensor-module-tutorial}
-sensor_msgs: {ubuntu: ros-kinetic-sensor-msgs}
+sensor_msgs: {ubuntu: ros-kinetic-sensor-msgs, debian: ros-kinetic-sensor-msgs}
 serial: {ubuntu: ros-kinetic-serial}
 serial_utils: {ubuntu: ros-kinetic-serial-utils}
 service_tools: {ubuntu: ros-kinetic-service-tools}
