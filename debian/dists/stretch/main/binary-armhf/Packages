@@ -719,6 +719,22 @@ MD5sum: b752a666d21a7866352c2fa6e7a7185e
 Description: Debug symbols for ros-kinetic-nodelet
 Build-Ids: 66b1323faaf82f91d2d3e989a127adce9e77a81b 9e8fa55879156d8ef9b015447d7b541a75ccad5e
 
+Package: ros-kinetic-nodelet-topic-tools
+Version: 1.9.14-0stretch
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 92
+Depends: libboost-all-dev, ros-kinetic-dynamic-reconfigure, ros-kinetic-message-filters, ros-kinetic-nodelet, ros-kinetic-pluginlib, ros-kinetic-roscpp
+Homepage: http://ros.org/wiki/nodelet_topic_tools
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-nodelet-topic-tools/ros-kinetic-nodelet-topic-tools_1.9.14-0stretch_armhf.deb
+Size: 16830
+SHA256: b959657a5ff7602050d9c9869361d772599ffe9d8fe17a70d180b5dfd1c66df6
+SHA1: da21c26555af80d09d2e2d35bb88a25dcf2b3b75
+MD5sum: 2c065246a7897abce527f2e3cc099403
+Description: This package contains common nodelet tools such as a mux, demux and throttle.
+
 Package: ros-kinetic-pluginlib
 Version: 1.11.3-0stretch
 Architecture: armhf
