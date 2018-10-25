@@ -500,7 +500,7 @@ geographic_msgs: {ubuntu: ros-kinetic-geographic-msgs}
 geometric_shapes: {ubuntu: ros-kinetic-geometric-shapes}
 geometry: {ubuntu: ros-kinetic-geometry}
 geometry2: {ubuntu: ros-kinetic-geometry2}
-geometry_msgs: {ubuntu: ros-kinetic-geometry-msgs}
+geometry_msgs: {ubuntu: ros-kinetic-geometry-msgs, debian: ros-kinetic-geometry-msgs}
 geometry_tutorials: {ubuntu: ros-kinetic-geometry-tutorials}
 gl_dependency: {ubuntu: ros-kinetic-gl-dependency}
 glkh_solver: {ubuntu: ros-kinetic-glkh-solver}

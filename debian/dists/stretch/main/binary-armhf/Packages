@@ -357,6 +357,23 @@ SHA1: a3777753f77f02a478d1217213ebe8276c5596cc
 MD5sum: 51fbd4c312972e889792529951e13f9a
 Description: Python ROS message and service generators.
 
+Package: ros-kinetic-geometry-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 1219
+Depends: ros-kinetic-message-runtime, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/geometry_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-geometry-msgs/ros-kinetic-geometry-msgs_1.12.6-0stretch_armhf.deb
+Size: 68476
+SHA256: 6ddbb229b552818aa86c4d890046cc17fb0178988252a0df36c012f0c490ed6c
+SHA1: 3a0f98abad265b2af6e424af6146fc5746f7c6c0
+MD5sum: f4429e3a23bd8d1796d4838b1bccb96f
+Description: geometry_msgs provides messages for common geometric primitives such as points, vectors, and poses.
+ These primitives are designed to provide a common data type and facilitate interoperability throughout the system.
+
 Package: ros-kinetic-message-filters
 Version: 1.12.14-0stretch
 Architecture: armhf
