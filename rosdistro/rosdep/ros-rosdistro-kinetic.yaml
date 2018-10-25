@@ -345,7 +345,7 @@ driver_base: {ubuntu: ros-kinetic-driver-base}
 driver_common: {ubuntu: ros-kinetic-driver-common}
 dwa_local_planner: {ubuntu: ros-kinetic-dwa-local-planner}
 dynamic_edt_3d: {ubuntu: ros-kinetic-dynamic-edt-3d}
-dynamic_reconfigure: {ubuntu: ros-kinetic-dynamic-reconfigure}
+dynamic_reconfigure: {ubuntu: ros-kinetic-dynamic-reconfigure, debian: ros-kinetic-dynamic-reconfigure}
 dynamic_tf_publisher: {ubuntu: ros-kinetic-dynamic-tf-publisher}
 dynamixel_controllers: {ubuntu: ros-kinetic-dynamixel-controllers}
 dynamixel_driver: {ubuntu: ros-kinetic-dynamixel-driver}
