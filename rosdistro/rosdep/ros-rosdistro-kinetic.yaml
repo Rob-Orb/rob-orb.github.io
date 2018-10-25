@@ -135,7 +135,7 @@ cl_transforms: {ubuntu: ros-kinetic-cl-transforms}
 cl_transforms_stamped: {ubuntu: ros-kinetic-cl-transforms-stamped}
 cl_urdf: {ubuntu: ros-kinetic-cl-urdf}
 cl_utils: {ubuntu: ros-kinetic-cl-utils}
-class_loader: {ubuntu: ros-kinetic-class-loader}
+class_loader: {ubuntu: ros-kinetic-class-loader, debian: ros-kinetic-class-loader}
 clear_costmap_recovery: {ubuntu: ros-kinetic-clear-costmap-recovery}
 click: {ubuntu: ros-kinetic-click}
 clock_relay: {ubuntu: ros-kinetic-clock-relay}
