@@ -89,7 +89,7 @@ bin_pose_emulator: {ubuntu: ros-kinetic-bin-pose-emulator}
 bin_pose_msgs: {ubuntu: ros-kinetic-bin-pose-msgs}
 binpicking_simple_utils: {ubuntu: ros-kinetic-binpicking-simple-utils}
 binpicking_utils: {ubuntu: ros-kinetic-binpicking-utils}
-bond: {ubuntu: ros-kinetic-bond}
+bond: {ubuntu: ros-kinetic-bond, debian: ros-kinetic-bond}
 bond_core: {ubuntu: ros-kinetic-bond-core}
 bondcpp: {ubuntu: ros-kinetic-bondcpp}
 bondpy: {ubuntu: ros-kinetic-bondpy}
