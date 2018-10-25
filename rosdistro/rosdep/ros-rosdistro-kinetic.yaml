@@ -1248,7 +1248,7 @@ play_motion: {ubuntu: ros-kinetic-play-motion}
 play_motion_msgs: {ubuntu: ros-kinetic-play-motion-msgs}
 plot_tools: {ubuntu: ros-kinetic-plot-tools}
 plotjuggler: {ubuntu: ros-kinetic-plotjuggler}
-pluginlib: {ubuntu: ros-kinetic-pluginlib}
+pluginlib: {ubuntu: ros-kinetic-pluginlib, debian: ros-kinetic-pluginlib}
 pluginlib_tutorials: {ubuntu: ros-kinetic-pluginlib-tutorials}
 point_cloud_publisher_tutorial: {ubuntu: ros-kinetic-point-cloud-publisher-tutorial}
 pointcloud_to_laserscan: {ubuntu: ros-kinetic-pointcloud-to-laserscan}

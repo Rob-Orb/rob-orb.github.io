@@ -648,6 +648,42 @@ SHA1: 90854cd0b2de9401f75f4a89ce1d510374fc1ba1
 MD5sum: 7a6b8cb16120d5874cc6c87d480669d4
 Description: nav_msgs defines the common messages used to interact with the navigation stack.
 
+Package: ros-kinetic-pluginlib
+Version: 1.11.3-0stretch
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 194
+Depends: libboost-all-dev, libtinyxml2-dev, ros-kinetic-class-loader, ros-kinetic-rosconsole, ros-kinetic-roslib (>= 1.11.1), libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), liblog4cxx10v5, libpocofoundation46, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2), libtinyxml2-4 (>= 2.0.2), libtinyxml2.6.2v5
+Homepage: http://www.ros.org/wiki/pluginlib
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-pluginlib/ros-kinetic-pluginlib_1.11.3-0stretch_armhf.deb
+Size: 46314
+SHA256: 7f89a02ce8cf4bd8b71323a989d2f845db4b7a2d18a25f1e6df7f0705924e125
+SHA1: 80c15f676a274889e31f6a3462a85bd175d98bb2
+MD5sum: 24f36777a3881be2ba799e9ef4547fab
+Description: The pluginlib package provides tools for writing and dynamically loading plugins using the ROS build infrastructure.
+ To work, these tools require plugin providers to register their plugins in the package.xml of their package.
+
+Package: ros-kinetic-pluginlib-dbgsym
+Source: ros-kinetic-pluginlib
+Version: 1.11.3-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 320
+Depends: ros-kinetic-pluginlib (= 1.11.3-0stretch)
+Homepage: http://www.ros.org/wiki/pluginlib
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-pluginlib/ros-kinetic-pluginlib-dbgsym_1.11.3-0stretch_armhf.deb
+Size: 297222
+SHA256: c6e9603ed356e6c4ffcf2eaac7fb22fda575ba8cbe92d070e688ed61b5dd1514
+SHA1: 2d3e6690718b13657cf2be59c99c0a54f130262d
+MD5sum: e3f17365055a2ae8539d232a648ea1ab
+Description: Debug symbols for ros-kinetic-pluginlib
+Build-Ids: 16993ff9d2c217ba5cd5c6eaa75a82cede8af593
+
 Package: ros-kinetic-ros
 Version: 1.14.4-0stretch
 Architecture: armhf
