@@ -700,6 +700,22 @@ MD5sum: 19754a8f751688c8e688c805ba9ff4a2
 Description: The nodelet package is designed to provide a way to run multiple algorithms in the same process with zero copy transport between algorithms.
  This package provides both the nodelet base class needed for implementing a nodelet, as well as the NodeletLoader class used for instantiating nodelets.
 
+Package: ros-kinetic-nodelet-core
+Version: 1.9.14-0stretch
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 14
+Depends: ros-kinetic-nodelet, ros-kinetic-nodelet-topic-tools
+Homepage: http://www.ros.org/wiki/nodelet_core
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-nodelet-core/ros-kinetic-nodelet-core_1.9.14-0stretch_armhf.deb
+Size: 2884
+SHA256: 85ba7469a59dc8cd78b7895efa6f9d488e20e11d4c97ac8a911d1c117fa8829b
+SHA1: 5fd3c72f9403ec313c345cc4c2733a05e7d554af
+MD5sum: da6cfbca8b1573ed96f6ed9cad947714
+Description: Nodelet Core Metapackage
+
 Package: ros-kinetic-nodelet-dbgsym
 Source: ros-kinetic-nodelet
 Version: 1.9.14-0stretch
