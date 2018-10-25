@@ -898,6 +898,23 @@ SHA1: 368bd7e4a4ca9d177d3ef9c3ef8b0dbed9608cba
 MD5sum: f45fbe2eceaacf03a85f6f5e4f9a9c4f
 Description: ROS Master implementation.
 
+Package: ros-kinetic-rosmsg
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 98
+Depends: python-rospkg, ros-kinetic-catkin (>= 0.6.4), ros-kinetic-genmsg, ros-kinetic-genpy (>= 0.6.5), ros-kinetic-rosbag, ros-kinetic-roslib
+Homepage: http://ros.org/wiki/rosmsg
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosmsg/ros-kinetic-rosmsg_1.12.14-0stretch_armhf.deb
+Size: 22120
+SHA256: e4d304fa4dac2b0ac8414a4bc904572728e67b6c32b68a21e04be7fcbde16ada
+SHA1: c61acfd68e4015f35ac2f6ba52557ab6cd3e2b58
+MD5sum: dccf4b8eddf68f39604ac319c1f967a4
+Description: rosmsg contains two command-line tools: rosmsg and rossrv.
+ rosmsg is a command-line tool for displaying information about ROS Message types. rossrv is a command-line tool for displaying information about ROS Service types.
+
 Package: ros-kinetic-rosout
 Version: 1.12.14-0stretch
 Architecture: armhf
