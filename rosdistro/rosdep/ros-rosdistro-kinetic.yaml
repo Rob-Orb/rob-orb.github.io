@@ -1800,7 +1800,7 @@ serial: {ubuntu: ros-kinetic-serial}
 serial_utils: {ubuntu: ros-kinetic-serial-utils}
 service_tools: {ubuntu: ros-kinetic-service-tools}
 settlerlib: {ubuntu: ros-kinetic-settlerlib}
-shape_msgs: {ubuntu: ros-kinetic-shape-msgs}
+shape_msgs: {ubuntu: ros-kinetic-shape-msgs, debian: ros-kinetic-shape-msgs}
 sick_scan: {ubuntu: ros-kinetic-sick-scan}
 sick_tim: {ubuntu: ros-kinetic-sick-tim}
 sick_visionary_t: {ubuntu: ros-kinetic-sick-visionary-t}

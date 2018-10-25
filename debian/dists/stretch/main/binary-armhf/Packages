@@ -1270,6 +1270,22 @@ SHA1: 12dc72a7393dd14367e3ee616e6a8c934e9b90e9
 MD5sum: e01dc7ff8c39aea616735dab18495564
 Description: This package defines messages for commonly used sensors, including cameras and scanning laser rangefinders.
 
+Package: ros-kinetic-shape-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Installed-Size: 196
+Depends: ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/shape_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-shape-msgs/ros-kinetic-shape-msgs_1.12.6-0stretch_armhf.deb
+Size: 23140
+SHA256: adb3c6b88b7d957aafb93b8fddaaaa770f37c02b44463bd577a00a73f512aafa
+SHA1: 70d51658025df49ff1b89118175057a1384cf615
+MD5sum: d7ba5d9a359f93b0723333f80c97eee2
+Description: This package contains messages for defining shapes, such as simple solid object primitives (cube, sphere, etc), planes, and meshes.
+
 Package: ros-kinetic-std-msgs
 Version: 0.5.11-0stretch
 Architecture: armhf
