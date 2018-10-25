@@ -333,7 +333,7 @@ desktop_full: {ubuntu: ros-kinetic-desktop-full}
 diagnostic_aggregator: {ubuntu: ros-kinetic-diagnostic-aggregator}
 diagnostic_analysis: {ubuntu: ros-kinetic-diagnostic-analysis}
 diagnostic_common_diagnostics: {ubuntu: ros-kinetic-diagnostic-common-diagnostics}
-diagnostic_msgs: {ubuntu: ros-kinetic-diagnostic-msgs}
+diagnostic_msgs: {ubuntu: ros-kinetic-diagnostic-msgs, debian: ros-kinetic-diagnostic-msgs}
 diagnostic_updater: {ubuntu: ros-kinetic-diagnostic-updater}
 diagnostics: {ubuntu: ros-kinetic-diagnostics}
 diff_drive_controller: {ubuntu: ros-kinetic-diff-drive-controller}
