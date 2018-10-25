@@ -1565,7 +1565,7 @@ ros_comm: {ubuntu: ros-kinetic-ros-comm, debian: ros-kinetic-ros-comm}
 ros_control: {ubuntu: ros-kinetic-ros-control}
 ros_control_boilerplate: {ubuntu: ros-kinetic-ros-control-boilerplate}
 ros_controllers: {ubuntu: ros-kinetic-ros-controllers}
-ros_core: {ubuntu: ros-kinetic-ros-core}
+ros_core: {ubuntu: ros-kinetic-ros-core, debian: ros-kinetic-ros-core}
 ros_emacs_utils: {ubuntu: ros-kinetic-ros-emacs-utils}
 ros_environment: {ubuntu: ros-kinetic-ros-environment, debian: ros-kinetic-ros-environment}
 ros_explorer: {ubuntu: ros-kinetic-ros-explorer}
