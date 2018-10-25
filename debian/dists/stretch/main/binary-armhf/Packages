@@ -490,6 +490,22 @@ SHA1: f0e468ac8ec83d97d121b071e212367b8a62f6a4
 MD5sum: a4fcdc03f9aeb7348d35391fedbb0c69
 Description: ROS packaging system
 
+Package: ros-kinetic-ros-comm
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 16
+Depends: ros-kinetic-message-filters, ros-kinetic-ros, ros-kinetic-rosbag, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-rosgraph, ros-kinetic-rosgraph-msgs, ros-kinetic-roslaunch, ros-kinetic-roslisp, ros-kinetic-rosmaster, ros-kinetic-rosmsg, ros-kinetic-rosnode, ros-kinetic-rosout, ros-kinetic-rosparam, ros-kinetic-rospy, ros-kinetic-rosservice, ros-kinetic-rostest, ros-kinetic-rostopic, ros-kinetic-roswtf, ros-kinetic-std-srvs, ros-kinetic-topic-tools, ros-kinetic-xmlrpcpp
+Homepage: http://www.ros.org/wiki/ros_comm
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-ros-comm/ros-kinetic-ros-comm_1.12.14-0stretch_armhf.deb
+Size: 3168
+SHA256: 1bbe312746a5d4eee9640705c2fb1feb2d1e6a93c57f8f3a9547524ed6aaec92
+SHA1: fe7dafd0a6d1eb2437679affc4a68598d0d08e6c
+MD5sum: 0cb328d7e610a064a359cab430adf51a
+Description: ROS communications-related packages, including core client libraries (roscpp, rospy) and graph introspection tools (rostopic, rosnode, rosservice, rosparam).
+
 Package: ros-kinetic-ros-environment
 Version: 1.0.0-0stretch
 Architecture: armhf
