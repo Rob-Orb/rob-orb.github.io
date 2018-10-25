@@ -1559,7 +1559,7 @@ roomblock_mapping: {ubuntu: ros-kinetic-roomblock-mapping}
 roomblock_navigation: {ubuntu: ros-kinetic-roomblock-navigation}
 ros: {ubuntu: ros-kinetic-ros, debian: ros-kinetic-ros}
 ros_apache2: {ubuntu: ros-kinetic-ros-apache2}
-ros_base: {ubuntu: ros-kinetic-ros-base}
+ros_base: {ubuntu: ros-kinetic-ros-base, debian: ros-kinetic-ros-base}
 ros_canopen: {ubuntu: ros-kinetic-ros-canopen}
 ros_comm: {ubuntu: ros-kinetic-ros-comm, debian: ros-kinetic-ros-comm}
 ros_control: {ubuntu: ros-kinetic-ros-control}
