@@ -916,7 +916,7 @@ md49_messages: {ubuntu: ros-kinetic-md49-messages}
 md49_serialport: {ubuntu: ros-kinetic-md49-serialport}
 mecanum_gazebo_plugin: {ubuntu: ros-kinetic-mecanum-gazebo-plugin}
 media_export: {ubuntu: ros-kinetic-media-export}
-message_filters: {ubuntu: ros-kinetic-message-filters, debian: ros-kinetic-bare}
+message_filters: {ubuntu: ros-kinetic-message-filters, debian: ros-kinetic-message-filters}
 message_generation: {ubuntu: ros-kinetic-message-generation, debian: ros-kinetic-message-generation}
 message_relay: {ubuntu: ros-kinetic-message-relay}
 message_runtime: {ubuntu: ros-kinetic-message-runtime, debian: ros-kinetic-message-runtime}

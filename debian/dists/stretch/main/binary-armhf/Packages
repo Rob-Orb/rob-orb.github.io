@@ -323,6 +323,41 @@ SHA1: a3777753f77f02a478d1217213ebe8276c5596cc
 MD5sum: 51fbd4c312972e889792529951e13f9a
 Description: Python ROS message and service generators.
 
+Package: ros-kinetic-message-filters
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 204
+Depends: ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-xmlrpcpp, libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), liblog4cxx10v5, libstdc++6 (>= 5)
+Homepage: http://ros.org/wiki/message_filters
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-message-filters/ros-kinetic-message-filters_1.12.14-0stretch_armhf.deb
+Size: 33144
+SHA256: dbc0c4cf39efb829d74f8c0bf6d7fd95e74f9e7821560c60d0c2776957c8903a
+SHA1: a0aa6987f5fd6d31597999812dffcd9c1f917d6a
+MD5sum: eb91ea71ff744ec8de987ba557b6891b
+Description: A set of message filters which take in messages and may output those messages at a later time, based on the conditions that filter needs met.
+
+Package: ros-kinetic-message-filters-dbgsym
+Source: ros-kinetic-message-filters
+Version: 1.12.14-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 58
+Depends: ros-kinetic-message-filters (= 1.12.14-0stretch)
+Homepage: http://ros.org/wiki/message_filters
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-message-filters/ros-kinetic-message-filters-dbgsym_1.12.14-0stretch_armhf.deb
+Size: 42664
+SHA256: 70737f7c08b1099d0df0ec3a3b2804578c96a713ec3e0255dbfadaf859419cd0
+SHA1: 318bc418202ffa83e31affe8bca6d7f110a7c896
+MD5sum: 9b5dd7236e31cc9c7d190529c64cf665
+Description: Debug symbols for ros-kinetic-message-filters
+Build-Ids: 4e8d7554b7b4bd3ef9b29d1ba6a2864460d8304c
+
 Package: ros-kinetic-message-generation
 Version: 0.4.0-0stretch
 Architecture: armhf
