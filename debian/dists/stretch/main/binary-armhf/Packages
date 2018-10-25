@@ -458,6 +458,22 @@ MD5sum: d12827c57fce20e9be4071aa53eb2671
 Description: A collection of .mk include files for building ROS architectural elements.
  Most package authors should use cmake .mk, which calls CMake for the build of the package. The other files in this package are intended for use in exotic situations that mostly arise when importing 3rdparty code.
 
+Package: ros-kinetic-nav-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 992
+Depends: ros-kinetic-actionlib-msgs, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/nav_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-nav-msgs/ros-kinetic-nav-msgs_1.12.6-0stretch_armhf.deb
+Size: 64588
+SHA256: d69902c1cf12ec916d0160fde68f05f502a46ee21ae59cb358cf597b166a56f7
+SHA1: 90854cd0b2de9401f75f4a89ce1d510374fc1ba1
+MD5sum: 7a6b8cb16120d5874cc6c87d480669d4
+Description: nav_msgs defines the common messages used to interact with the navigation stack.
+
 Package: ros-kinetic-ros
 Version: 1.14.4-0stretch
 Architecture: armhf
