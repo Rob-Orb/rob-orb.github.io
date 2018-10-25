@@ -702,6 +702,41 @@ SHA1: dc8575a023011bd6de25d0a83beaae3da30c7658
 MD5sum: 886f7e9ec4ea8f1acbda646a774034d5
 Description: ROS console output library.
 
+Package: ros-kinetic-rosconsole-bridge
+Version: 0.5.2-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 49
+Depends: libconsole-bridge-dev, ros-kinetic-rosconsole, libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), liblog4cxx10v5, libstdc++6 (>= 5.2)
+Homepage: http://www.ros.org/wiki/rosconsole_bridge
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosconsole-bridge/ros-kinetic-rosconsole-bridge_0.5.2-0stretch_armhf.deb
+Size: 12476
+SHA256: f43068d56616784f8cfde91bc0e789efa451d646a60199f823353ee71b87f13a
+SHA1: 7e7444de61cb5ad70cb2478552bfc4eb0c376ea9
+MD5sum: ff27883284fb4dab0213eddbe1b6e482
+Description: rosconsole_bridge is a package used in conjunction with console_bridge and rosconsole for connecting console_bridge-based logging to rosconsole-based logging.
+
+Package: ros-kinetic-rosconsole-bridge-dbgsym
+Source: ros-kinetic-rosconsole-bridge
+Version: 0.5.2-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 58
+Depends: ros-kinetic-rosconsole-bridge (= 0.5.2-0stretch)
+Homepage: http://www.ros.org/wiki/rosconsole_bridge
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-rosconsole-bridge/ros-kinetic-rosconsole-bridge-dbgsym_0.5.2-0stretch_armhf.deb
+Size: 43400
+SHA256: e9ba61136fa1340c8a5b2b1a41ae69d75b3a72b7e2c6a3213630280b2268facb
+SHA1: ca7c045ff98ba12c5b6cea900cddcb41f3ce483d
+MD5sum: c871f2e5fa134d77502a0306c809a508
+Description: Debug symbols for ros-kinetic-rosconsole-bridge
+Build-Ids: 16b6075f7512b01d847b36442a2d40d53e22ad24
+
 Package: ros-kinetic-rosconsole-dbgsym
 Source: ros-kinetic-rosconsole
 Version: 1.12.14-0stretch
