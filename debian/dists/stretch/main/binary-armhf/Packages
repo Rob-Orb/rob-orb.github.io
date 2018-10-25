@@ -1386,6 +1386,23 @@ MD5sum: d72d5cf504064e69af31227b1ff13ddb
 Description: Debug symbols for ros-kinetic-topic-tools
 Build-Ids: 13ff0126570a3ee2b29b0366d3b82776af7b10d9 15b4a6fd4b57f00a25c19bd6b7b4d71f690c1296 1863433ebafb210be8d1dd767d3f560289155b97 2b901e168fa6d09e4d5bfd14190abf40e0ac5f9d 49a243f822ebf4ef52e33f9abee309757ab2486b 568f23d8ffd6d83ae70f39466b426bcebb378bf8 60299a016e16fe7811f95fa0c565b78e936c911e
 
+Package: ros-kinetic-trajectory-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 311
+Depends: ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-rosbag-migration-rule, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/trajectory_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-trajectory-msgs/ros-kinetic-trajectory-msgs_1.12.6-0stretch_armhf.deb
+Size: 28702
+SHA256: e13a58d1488cf31f4ad40c67e216efa0a257b395c7cbac8071e8027acd332dd1
+SHA1: 3ca243a8bf2077ece2a180a665489192cdee973c
+MD5sum: 1b3af810f98b899a84531fde6fdb069b
+Description: This package defines messages for defining robot trajectories.
+ These messages are also the building blocks of most of the control_msgs actions.
+
 Package: ros-kinetic-xmlrpcpp
 Version: 1.12.14-0stretch
 Architecture: armhf

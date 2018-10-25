@@ -1982,7 +1982,7 @@ trac_ik_lib: {ubuntu: ros-kinetic-trac-ik-lib}
 trac_ik_python: {ubuntu: ros-kinetic-trac-ik-python}
 tracetools: {ubuntu: ros-kinetic-tracetools}
 track_odometry: {ubuntu: ros-kinetic-track-odometry}
-trajectory_msgs: {ubuntu: ros-kinetic-trajectory-msgs}
+trajectory_msgs: {ubuntu: ros-kinetic-trajectory-msgs, debian: ros-kinetic-trajectory-msgs}
 trajectory_tracker: {ubuntu: ros-kinetic-trajectory-tracker}
 trajectory_tracker_msgs: {ubuntu: ros-kinetic-trajectory-tracker-msgs}
 transmission_interface: {ubuntu: ros-kinetic-transmission-interface}
