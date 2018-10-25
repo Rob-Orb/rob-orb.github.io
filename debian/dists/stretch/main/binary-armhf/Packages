@@ -899,6 +899,22 @@ MD5sum: 35b473a4061730ce7cb6e0ff30f90d45
 Description: Debug symbols for ros-kinetic-roslib
 Build-Ids: b23988ed57c60b8dd2c64d1bbdc0f8be18f62a22
 
+Package: ros-kinetic-roslisp
+Version: 1.9.21-0stretch
+Architecture: armhf
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Installed-Size: 560
+Depends: ros-kinetic-rosgraph-msgs, ros-kinetic-roslang, ros-kinetic-rospack, ros-kinetic-std-srvs, sbcl
+Homepage: http://ros.org/wiki/roslisp
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-roslisp/ros-kinetic-roslisp_1.9.21-0stretch_armhf.deb
+Size: 100218
+SHA256: 0df8ac86fbd51f2a390e0c51abd51e1d0882cdb76dba232c769a86e5b3b8a4ff
+SHA1: c10805dfbad60eae55577f1024cb18ffc0f2ff4f
+MD5sum: baed3212057ed1caba09830268c70615
+Description: Lisp client library for ROS, the Robot Operating System.
+
 Package: ros-kinetic-roslz4
 Version: 1.12.14-0stretch
 Architecture: armhf

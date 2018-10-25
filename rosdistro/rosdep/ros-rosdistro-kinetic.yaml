@@ -1630,7 +1630,7 @@ roslang: {ubuntu: ros-kinetic-roslang, debian: ros-kinetic-roslang}
 roslaunch: {ubuntu: ros-kinetic-roslaunch, debian: ros-kinetic-roslaunch}
 roslib: {ubuntu: ros-kinetic-roslib, debian: ros-kinetic-roslib}
 roslint: {ubuntu: ros-kinetic-roslint}
-roslisp: {ubuntu: ros-kinetic-roslisp}
+roslisp: {ubuntu: ros-kinetic-roslisp, debian: ros-kinetic-roslisp}
 roslisp_common: {ubuntu: ros-kinetic-roslisp-common}
 roslisp_repl: {ubuntu: ros-kinetic-roslisp-repl}
 roslisp_utilities: {ubuntu: ros-kinetic-roslisp-utilities}
