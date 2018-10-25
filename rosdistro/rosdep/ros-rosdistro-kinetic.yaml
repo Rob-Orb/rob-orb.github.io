@@ -91,7 +91,7 @@ binpicking_simple_utils: {ubuntu: ros-kinetic-binpicking-simple-utils}
 binpicking_utils: {ubuntu: ros-kinetic-binpicking-utils}
 bond: {ubuntu: ros-kinetic-bond, debian: ros-kinetic-bond}
 bond_core: {ubuntu: ros-kinetic-bond-core}
-bondcpp: {ubuntu: ros-kinetic-bondcpp}
+bondcpp: {ubuntu: ros-kinetic-bondcpp, debian: ros-kinetic-bondcpp}
 bondpy: {ubuntu: ros-kinetic-bondpy, debian: ros-kinetic-bondpy}
 brics_actuator: {ubuntu: ros-kinetic-brics-actuator}
 calibration: {ubuntu: ros-kinetic-calibration}
