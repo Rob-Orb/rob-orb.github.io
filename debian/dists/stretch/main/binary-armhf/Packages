@@ -1138,6 +1138,23 @@ MD5sum: 75fe8bfce558386c86d39059dc855636
 Description: Unit-testing package for ROS.
  This is a lower-level library for rostest and handles unit tests, whereas rostest handles integration tests.
 
+Package: ros-kinetic-roswtf
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 199
+Depends: python-paramiko, python-rospkg, ros-kinetic-rosbuild, ros-kinetic-rosgraph, ros-kinetic-roslaunch, ros-kinetic-roslib, ros-kinetic-rosnode, ros-kinetic-rosservice
+Homepage: http://ros.org/wiki/roswtf
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-roswtf/ros-kinetic-roswtf_1.12.14-0stretch_armhf.deb
+Size: 40744
+SHA256: cb4da931f525b4eba7612f6058b13a41e36824eba6ef85cf4fc2c6a8b6d2bad3
+SHA1: 1ef005a4608a110cd0050b9467dcd29f4de3fd59
+MD5sum: 9cd4bcc1d9def7374668f4923f6acb55
+Description: roswtf is a tool for diagnosing issues with a running ROS system.
+ Think of it as a FAQ implemented in code.
+
 Package: ros-kinetic-std-msgs
 Version: 0.5.11-0stretch
 Architecture: armhf

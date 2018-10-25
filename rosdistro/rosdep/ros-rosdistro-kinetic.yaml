@@ -1672,7 +1672,7 @@ rostopic: {ubuntu: ros-kinetic-rostopic, debian: ros-kinetic-rostopic}
 rostune: {ubuntu: ros-kinetic-rostune}
 rosunit: {ubuntu: ros-kinetic-rosunit, debian: ros-kinetic-rosunit}
 rosweb: {ubuntu: ros-kinetic-rosweb}
-roswtf: {ubuntu: ros-kinetic-roswtf, debian: ros-kinetic-bare}
+roswtf: {ubuntu: ros-kinetic-roswtf, debian: ros-kinetic-roswtf}
 roswww: {ubuntu: ros-kinetic-roswww}
 rotate_recovery: {ubuntu: ros-kinetic-rotate-recovery}
 route_network: {ubuntu: ros-kinetic-route-network}
