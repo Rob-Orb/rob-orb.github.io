@@ -2113,7 +2113,7 @@ visp_camera_calibration: {ubuntu: ros-kinetic-visp-camera-calibration}
 visp_hand2eye_calibration: {ubuntu: ros-kinetic-visp-hand2eye-calibration}
 visp_tracker: {ubuntu: ros-kinetic-visp-tracker}
 visualization_marker_tutorials: {ubuntu: ros-kinetic-visualization-marker-tutorials}
-visualization_msgs: {ubuntu: ros-kinetic-visualization-msgs}
+visualization_msgs: {ubuntu: ros-kinetic-visualization-msgs, debian: ros-kinetic-visualization-msgs}
 visualization_osg: {ubuntu: ros-kinetic-visualization-osg}
 visualization_tutorials: {ubuntu: ros-kinetic-visualization-tutorials}
 visualstates: {ubuntu: ros-kinetic-visualstates}

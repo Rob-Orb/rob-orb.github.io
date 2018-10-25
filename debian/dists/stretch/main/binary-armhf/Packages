@@ -1403,6 +1403,23 @@ MD5sum: 1b3af810f98b899a84531fde6fdb069b
 Description: This package defines messages for defining robot trajectories.
  These messages are also the building blocks of most of the control_msgs actions.
 
+Package: ros-kinetic-visualization-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 1160
+Depends: ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/visualization_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-visualization-msgs/ros-kinetic-visualization-msgs_1.12.6-0stretch_armhf.deb
+Size: 71358
+SHA256: 3cc3c963614ebbb6579fbfad2ed7f3e21793476aa8fdf2cae08aa6a42bdcb7f2
+SHA1: 670b9a0c5e232408a759dfd79242c25cb1f61882
+MD5sum: eb2d6ff803c86954bda982578b5e8ff6
+Description: visualization_msgs is a set of messages used by higher level packages, such as rviz, that deal in visualization-specific data.
+ The main messages in visualization_msgs is visualization_msgs/Marker. The marker message is used to send visualization &quot;markers&quot; such as boxes, spheres, arrows, lines, etc. to a visualization environment such as rviz. See the rviz tutorial rviz tutorials for more information.
+
 Package: ros-kinetic-xmlrpcpp
 Version: 1.12.14-0stretch
 Architecture: armhf
