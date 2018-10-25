@@ -556,6 +556,21 @@ MD5sum: 806affee52b7fda727c22e34926429d3
 Description: Debug symbols for ros-kinetic-rosbag
 Build-Ids: 425352561dd51f7ac92c9d39d16beeedefd79a4f a17367d78508db63e628d6fefe0ce78ad90d9637 e5ae1fdb86b030bc2776faeb6f8e9abad4740039
 
+Package: ros-kinetic-rosbag-migration-rule
+Version: 1.0.0-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 27
+Homepage: http://ros.org/wiki/rosbag_migration_rule
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosbag-migration-rule/ros-kinetic-rosbag-migration-rule_1.0.0-0stretch_armhf.deb
+Size: 4176
+SHA256: 8ce55c755102592d4338ddad9bd23f0c927c8d13c8777cdb6bd33e09521e9ef8
+SHA1: 62773db479a37ee5e476a76aa4831d6b8229dc49
+MD5sum: 50aa35d31f5cd6581404776cce7fa899
+Description: This empty package allows to export rosbag migration rule files without depending on rosbag.
+
 Package: ros-kinetic-rosbag-storage
 Version: 1.12.14-0stretch
 Architecture: armhf
