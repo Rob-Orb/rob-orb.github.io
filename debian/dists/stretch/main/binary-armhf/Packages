@@ -235,6 +235,22 @@ MD5sum: eaec95e447830eb923878be9cc429f1b
 Description: A bond allows two processes, A and B, to know when the other has terminated, either cleanly or by crashing.
  The bond remains connected until it is either broken explicitly or until a heartbeat times out.
 
+Package: ros-kinetic-bondpy
+Version: 1.8.3-0stretch
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 78
+Depends: ros-kinetic-rospy, ros-kinetic-smclib, uuid-dev
+Homepage: http://www.ros.org/wiki/bondpy
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-bondpy/ros-kinetic-bondpy_1.8.3-0stretch_armhf.deb
+Size: 16224
+SHA256: 50e923d01aca45bdca4d67c4b538567f55f73afc90f0e0a4d2e7e4fecfb41925
+SHA1: e5c1d1676ede25c1ba34bbf7d57f7faf85e24bf3
+MD5sum: 9489feae6c0c3575ee89e2b1ece44777
+Description: Python implementation of bond, a mechanism for checking when another process has terminated.
+
 Package: ros-kinetic-catkin
 Version: 0.7.14-0stretch
 Architecture: armhf
