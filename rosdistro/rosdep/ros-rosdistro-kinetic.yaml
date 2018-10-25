@@ -247,7 +247,7 @@ collada_robots: {ubuntu: ros-kinetic-collada-robots}
 collada_urdf: {ubuntu: ros-kinetic-collada-urdf}
 combined_robot_hw: {ubuntu: ros-kinetic-combined-robot-hw}
 combined_robot_hw_tests: {ubuntu: ros-kinetic-combined-robot-hw-tests}
-common_msgs: {ubuntu: ros-kinetic-common-msgs}
+common_msgs: {ubuntu: ros-kinetic-common-msgs, debian: ros-kinetic-common-msgs}
 common_tutorials: {ubuntu: ros-kinetic-common-tutorials}
 compressed_depth_image_transport: {ubuntu: ros-kinetic-compressed-depth-image-transport}
 compressed_image_transport: {ubuntu: ros-kinetic-compressed-image-transport}

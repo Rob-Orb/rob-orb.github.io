@@ -212,6 +212,23 @@ SHA1: 0b0a4b0daf748fdcdb7f8eafee1d25e1ce0bfbb1
 MD5sum: 773b2bdde454cb6e0829b65dc9ad66f0
 Description: A common repository for CMake Modules which are not distributed with CMake but are commonly used by ROS packages.
 
+Package: ros-kinetic-common-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 15
+Depends: ros-kinetic-actionlib-msgs, ros-kinetic-diagnostic-msgs, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-sensor-msgs, ros-kinetic-shape-msgs, ros-kinetic-stereo-msgs, ros-kinetic-trajectory-msgs, ros-kinetic-visualization-msgs
+Homepage: http://wiki.ros.org/common_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-common-msgs/ros-kinetic-common-msgs_1.12.6-0stretch_armhf.deb
+Size: 3152
+SHA256: 45c8ab93a8fe8a733dc463299c605b1417d57f095a157959ff8358dae26d2617
+SHA1: 99bd435d68ee8352b546f5cfc658d04cced96cd5
+MD5sum: 596cd22d72d37a31691ab9fbe1b6b98c
+Description: common_msgs contains messages that are widely used by other ROS packages.
+ These includes messages for actions (actionlib_msgs), diagnostics (diagnostic_msgs), geometric primitives (geometry_msgs), robot navigation (nav_msgs), and common sensors (sensor_msgs), such as laser range finders, cameras, point clouds.
+
 Package: ros-kinetic-cpp-common
 Version: 0.6.11-0stretch
 Architecture: armhf
