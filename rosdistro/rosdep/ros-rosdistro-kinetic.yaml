@@ -1823,7 +1823,7 @@ smach: {ubuntu: ros-kinetic-smach}
 smach_msgs: {ubuntu: ros-kinetic-smach-msgs}
 smach_ros: {ubuntu: ros-kinetic-smach-ros}
 smach_viewer: {ubuntu: ros-kinetic-smach-viewer}
-smclib: {ubuntu: ros-kinetic-smclib}
+smclib: {ubuntu: ros-kinetic-smclib, debian: ros-kinetic-smclib}
 smp_ros: {ubuntu: ros-kinetic-smp-ros}
 sns_ik_lib: {ubuntu: ros-kinetic-sns-ik-lib}
 social_navigation_layers: {ubuntu: ros-kinetic-social-navigation-layers}

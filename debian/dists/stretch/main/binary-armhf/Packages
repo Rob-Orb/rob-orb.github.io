@@ -1404,6 +1404,22 @@ SHA1: 70d51658025df49ff1b89118175057a1384cf615
 MD5sum: d7ba5d9a359f93b0723333f80c97eee2
 Description: This package contains messages for defining shapes, such as simple solid object primitives (cube, sphere, etc), planes, and meshes.
 
+Package: ros-kinetic-smclib
+Version: 1.8.3-0stretch
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 71
+Homepage: http://smc.sourceforge.net/
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-smclib/ros-kinetic-smclib_1.8.3-0stretch_armhf.deb
+Size: 13688
+SHA256: 44ce915a2f0589e7aa25c9b0ab0934bb1c7200a7c44c6a1ad050f140c9e91265
+SHA1: 90ce225d6b1859aa2c7109159b9285afafe25845
+MD5sum: 9765727a91d8d4a902ce5c17a866be8a
+Description: The State Machine Compiler (SMC) from http://smc.sourceforge.net/ converts a language-independent description of a state machine into the source code to support that state machine.
+ This package contains the libraries that a compiled state machine depends on, but it does not contain the compiler itself.
+
 Package: ros-kinetic-std-msgs
 Version: 0.5.11-0stretch
 Architecture: armhf
