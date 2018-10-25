@@ -1319,6 +1319,22 @@ SHA1: 71fbd8359bc22cdc21a829432decbf90f433aad5
 MD5sum: 84cd8ab2ec8cab3885cbcdc235b0af17
 Description: Common service definitions.
 
+Package: ros-kinetic-stereo-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 146
+Depends: ros-kinetic-message-runtime, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/stereo_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-stereo-msgs/ros-kinetic-stereo-msgs_1.12.6-0stretch_armhf.deb
+Size: 19448
+SHA256: d5cdb693d0e779603ce4669e8e7a1e2c11ee763b16b516a91701dadbabebac21
+SHA1: e1effb1370528417494d9f1d7eb3846177f97a70
+MD5sum: 844719e1237d973006b82d555f825df8
+Description: stereo_msgs contains messages specific to stereo processing, such as disparity images.
+
 Package: ros-kinetic-topic-tools
 Version: 1.12.14-0stretch
 Architecture: armhf

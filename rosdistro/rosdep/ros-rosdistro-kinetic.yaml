@@ -1857,7 +1857,7 @@ stdr_samples: {ubuntu: ros-kinetic-stdr-samples}
 stdr_server: {ubuntu: ros-kinetic-stdr-server}
 stdr_simulator: {ubuntu: ros-kinetic-stdr-simulator}
 stereo_image_proc: {ubuntu: ros-kinetic-stereo-image-proc}
-stereo_msgs: {ubuntu: ros-kinetic-stereo-msgs}
+stereo_msgs: {ubuntu: ros-kinetic-stereo-msgs, debian: ros-kinetic-stereo-msgs}
 summit_x_common: {ubuntu: ros-kinetic-summit-x-common}
 summit_x_control: {ubuntu: ros-kinetic-summit-x-control}
 summit_x_description: {ubuntu: ros-kinetic-summit-x-description}
