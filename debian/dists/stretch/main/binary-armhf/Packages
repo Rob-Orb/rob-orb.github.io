@@ -151,6 +151,42 @@ MD5sum: 4c0588cb96397971b20b0d2b2b543515
 Description: catkin package library
  Library for retrieving information about catkin packages.
 
+Package: ros-kinetic-actionlib
+Version: 1.11.13-0stretch
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 1691
+Depends: libboost-all-dev, python-wxtools, ros-kinetic-actionlib-msgs, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-rostopic, ros-kinetic-std-msgs, libboost-atomic1.62.0, libboost-chrono1.62.0, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libconsole-bridge0.2v5, libgcc1 (>= 1:3.5), liblog4cxx10v5, libstdc++6 (>= 5.2)
+Homepage: http://www.ros.org/wiki/actionlib
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-actionlib/ros-kinetic-actionlib_1.11.13-0stretch_armhf.deb
+Size: 138854
+SHA256: 8ff8639ca936c95cd4b6d33ff9e9e665d1e0aa09b54cabd225b17d4865f9a98a
+SHA1: d283541968cb9a30d024118cab98c0c7983984c4
+MD5sum: 21604bea62d363f855e023e2659da32a
+Description: The actionlib stack provides a standardized interface for interfacing with preemptable tasks.
+ Examples of this include moving the base to a target location, performing a laser scan and returning the resulting point cloud, detecting the handle of a door, etc.
+
+Package: ros-kinetic-actionlib-dbgsym
+Source: ros-kinetic-actionlib
+Version: 1.11.13-0stretch
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 369
+Depends: ros-kinetic-actionlib (= 1.11.13-0stretch)
+Homepage: http://www.ros.org/wiki/actionlib
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-kinetic-actionlib/ros-kinetic-actionlib-dbgsym_1.11.13-0stretch_armhf.deb
+Size: 327646
+SHA256: c56da8e1e6adae649abcb970d54ca2215d5fa0eeabb986e5e146dc7066d0773a
+SHA1: e234e915b84540f8891c6370d5909568cc5495f7
+MD5sum: 5092efec0253e4d93ec0af80ccca2cb2
+Description: Debug symbols for ros-kinetic-actionlib
+Build-Ids: 24a0d19e658cc89c46482f534f21dbda0d3e3521
+
 Package: ros-kinetic-actionlib-msgs
 Version: 1.12.6-0stretch
 Architecture: armhf
