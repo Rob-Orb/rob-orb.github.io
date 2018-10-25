@@ -1081,7 +1081,7 @@ nmea_comms: {ubuntu: ros-kinetic-nmea-comms}
 nmea_msgs: {ubuntu: ros-kinetic-nmea-msgs}
 nmea_navsat_driver: {ubuntu: ros-kinetic-nmea-navsat-driver}
 node_manager_fkie: {ubuntu: ros-kinetic-node-manager-fkie}
-nodelet: {ubuntu: ros-kinetic-nodelet}
+nodelet: {ubuntu: ros-kinetic-nodelet, debian: ros-kinetic-nodelet}
 nodelet_core: {ubuntu: ros-kinetic-nodelet-core}
 nodelet_topic_tools: {ubuntu: ros-kinetic-nodelet-topic-tools}
 nodelet_tutorial_math: {ubuntu: ros-kinetic-nodelet-tutorial-math}
