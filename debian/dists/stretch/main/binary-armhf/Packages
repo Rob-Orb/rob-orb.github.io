@@ -235,6 +235,23 @@ MD5sum: eaec95e447830eb923878be9cc429f1b
 Description: A bond allows two processes, A and B, to know when the other has terminated, either cleanly or by crashing.
  The bond remains connected until it is either broken explicitly or until a heartbeat times out.
 
+Package: ros-kinetic-bond-core
+Version: 1.8.3-0stretch
+Architecture: armhf
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Installed-Size: 15
+Depends: ros-kinetic-bond, ros-kinetic-bondcpp, ros-kinetic-bondpy, ros-kinetic-smclib
+Homepage: http://www.ros.org/wiki/bond_core
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-bond-core/ros-kinetic-bond-core_1.8.3-0stretch_armhf.deb
+Size: 2874
+SHA256: f40fe85fd34f1c2bbdce22f416686880d5e1dc317d72a169fe4edbe7b931a8cc
+SHA1: 7eecf96dd254d796ccf5f48a96fa9f8847e7e137
+MD5sum: f689fb66473d6c53d645c2499ea8ce2a
+Description: A bond allows two processes, A and B, to know when the other has terminated, either cleanly or by crashing.
+ The bond remains connected until it is either broken explicitly or until a heartbeat times out.
+
 Package: ros-kinetic-bondcpp
 Version: 1.8.3-0stretch
 Architecture: armhf
