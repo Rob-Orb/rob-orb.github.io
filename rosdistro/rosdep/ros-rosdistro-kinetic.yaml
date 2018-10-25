@@ -14,7 +14,7 @@ ackermann_controller: {ubuntu: ros-kinetic-ackermann-controller}
 ackermann_msgs: {ubuntu: ros-kinetic-ackermann-msgs}
 actionlib: {ubuntu: ros-kinetic-actionlib}
 actionlib_lisp: {ubuntu: ros-kinetic-actionlib-lisp}
-actionlib_msgs: {ubuntu: ros-kinetic-actionlib-msgs}
+actionlib_msgs: {ubuntu: ros-kinetic-actionlib-msgs, debian: ros-kinetic-actionlib-msgs}
 actionlib_tutorials: {ubuntu: ros-kinetic-actionlib-tutorials}
 addwa_local_planner: {ubuntu: ros-kinetic-addwa-local-planner}
 adi_driver: {ubuntu: ros-kinetic-adi-driver}

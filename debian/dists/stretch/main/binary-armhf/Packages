@@ -151,6 +151,23 @@ MD5sum: 4c0588cb96397971b20b0d2b2b543515
 Description: catkin package library
  Library for retrieving information about catkin packages.
 
+Package: ros-kinetic-actionlib-msgs
+Version: 1.12.6-0stretch
+Architecture: armhf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 218
+Depends: ros-kinetic-message-generation, ros-kinetic-message-runtime, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/actionlib_msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-actionlib-msgs/ros-kinetic-actionlib-msgs_1.12.6-0stretch_armhf.deb
+Size: 27960
+SHA256: cf231ba24d90642befe2024432ba691af0ca3a6fde2459274d3ec014744b6596
+SHA1: b1f4f3ee0c2ad0e819ec6bb8422c4cb2e053cbb0
+MD5sum: 357362301d7b5029347173876dc0b3dd
+Description: actionlib_msgs defines the common messages to interact with an action server and an action client.
+ For full documentation of the actionlib API see the actionlib package.
+
 Package: ros-kinetic-bare
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Architecture: armhf
