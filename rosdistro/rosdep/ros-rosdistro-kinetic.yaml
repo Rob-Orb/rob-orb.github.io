@@ -1664,7 +1664,7 @@ rosserial_server: {ubuntu: ros-kinetic-rosserial-server}
 rosserial_tivac: {ubuntu: ros-kinetic-rosserial-tivac}
 rosserial_windows: {ubuntu: ros-kinetic-rosserial-windows}
 rosserial_xbee: {ubuntu: ros-kinetic-rosserial-xbee}
-rosservice: {ubuntu: ros-kinetic-rosservice, debian: ros-kinetic-bare}
+rosservice: {ubuntu: ros-kinetic-rosservice, debian: ros-kinetic-rosservice}
 rostest: {ubuntu: ros-kinetic-rostest, debian: ros-kinetic-rostest}
 rostful: {ubuntu: ros-kinetic-rostful}
 rostime: {ubuntu: ros-kinetic-rostime, debian: ros-kinetic-rostime}

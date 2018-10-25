@@ -1036,6 +1036,23 @@ MD5sum: c9afec956c0b9dce3555dbfaa63078e2
 Description: rospy is a pure Python client library for ROS.
  The rospy client API enables Python programmers to quickly interface with ROS Topics, Services, and Parameters. The design of rospy favors implementation speed (i.e. developer time) over runtime performance so that algorithms can be quickly prototyped and tested within ROS. It is also ideal for non-critical-path code, such as configuration and initialization code. Many of the ROS tools are written in rospy to take advantage of the type introspection capabilities. Many of the ROS tools, such as rostopic and rosservice, are built on top of rospy.
 
+Package: ros-kinetic-rosservice
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 92
+Depends: ros-kinetic-genpy, ros-kinetic-rosgraph, ros-kinetic-roslib, ros-kinetic-rosmsg, ros-kinetic-rospy
+Homepage: http://ros.org/wiki/rosservice
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosservice/ros-kinetic-rosservice_1.12.14-0stretch_armhf.deb
+Size: 18356
+SHA256: acc8aa5b6e430eb688ec50ea0ab53c55e416528a050d5313b56049483cee0694
+SHA1: 6b13302c94b747a25b78e8bc3328584c8bf80313
+MD5sum: 54b7fba239d26501039e77cd82a52f05
+Description: rosservice contains the rosservice command-line tool for listing and querying ROS Services.
+ It also contains a Python library for retrieving information about Services and dynamically invoking them. The Python library is experimental and is for internal-use only.
+
 Package: ros-kinetic-rostest
 Version: 1.12.14-0stretch
 Architecture: armhf
