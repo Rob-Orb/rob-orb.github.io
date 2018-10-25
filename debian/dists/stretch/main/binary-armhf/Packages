@@ -915,6 +915,23 @@ MD5sum: dccf4b8eddf68f39604ac319c1f967a4
 Description: rosmsg contains two command-line tools: rosmsg and rossrv.
  rosmsg is a command-line tool for displaying information about ROS Message types. rossrv is a command-line tool for displaying information about ROS Service types.
 
+Package: ros-kinetic-rosnode
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 90
+Depends: ros-kinetic-rosgraph, ros-kinetic-rostopic
+Homepage: http://ros.org/wiki/rosnode
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rosnode/ros-kinetic-rosnode_1.12.14-0stretch_armhf.deb
+Size: 20030
+SHA256: 42a94b7da21decded8bef6b2b4c14961181a47882c4772045ad5a5dbe343f621
+SHA1: 97c911dff4a7d04a5789ecaba8b63e262c1ae6a1
+MD5sum: f3bd29126b5a267af762b459e0865ab5
+Description: rosnode is a command-line tool for displaying debug information about ROS Nodes, including publications, subscriptions and connections.
+ It also contains an experimental library for retrieving node information. This library is intended for internal use only.
+
 Package: ros-kinetic-rosout
 Version: 1.12.14-0stretch
 Architecture: armhf

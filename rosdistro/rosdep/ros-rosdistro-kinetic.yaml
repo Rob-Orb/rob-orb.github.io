@@ -1639,7 +1639,7 @@ rosmake: {ubuntu: ros-kinetic-rosmake, debian: ros-kinetic-rosmake}
 rosmaster: {ubuntu: ros-kinetic-rosmaster, debian: ros-kinetic-rosmaster}
 rosmon: {ubuntu: ros-kinetic-rosmon}
 rosmsg: {ubuntu: ros-kinetic-rosmsg, debian: ros-kinetic-rosmsg}
-rosnode: {ubuntu: ros-kinetic-rosnode, debian: ros-kinetic-bare}
+rosnode: {ubuntu: ros-kinetic-rosnode, debian: ros-kinetic-rosnode}
 rosnode_rtc: {ubuntu: ros-kinetic-rosnode-rtc}
 rosout: {ubuntu: ros-kinetic-rosout, debian: ros-kinetic-rosout}
 rospack: {ubuntu: ros-kinetic-rospack, debian: ros-kinetic-rospack}
