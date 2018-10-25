@@ -1018,6 +1018,23 @@ MD5sum: 6ddec01be11bf7706d6045885706e183
 Description: Debug symbols for ros-kinetic-rostime
 Build-Ids: 246b5a674f6a7994b8ed5344b7f01fc71f584ea1
 
+Package: ros-kinetic-rostopic
+Version: 1.12.14-0stretch
+Architecture: armhf
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 195
+Depends: ros-kinetic-genpy (>= 0.5.4), ros-kinetic-rosbag, ros-kinetic-rospy
+Homepage: http://ros.org/wiki/rostopic
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-rostopic/ros-kinetic-rostopic_1.12.14-0stretch_armhf.deb
+Size: 44696
+SHA256: 4f2fad7dbfa013f8da17e88bd00e362aeef9dfc8f68616c1bf62747894084b6a
+SHA1: 12b0cc2a80c9c35b29453cd8883b18e16187b9ce
+MD5sum: 20699d4f17964a542ce406013a7a0ab3
+Description: rostopic contains the rostopic command-line tool for displaying debug information about ROS Topics, including publishers, subscribers, publishing rate, and ROS Messages.
+ It also contains an experimental Python library for getting information about and interacting with topics dynamically. This library is for internal-use only as the code API may change, though it does provide examples of how to implement dynamic subscription and publication behaviors in ROS.
+
 Package: ros-kinetic-rosunit
 Version: 1.14.4-0stretch
 Architecture: armhf

@@ -1668,7 +1668,7 @@ rosservice: {ubuntu: ros-kinetic-rosservice, debian: ros-kinetic-bare}
 rostest: {ubuntu: ros-kinetic-rostest, debian: ros-kinetic-rostest}
 rostful: {ubuntu: ros-kinetic-rostful}
 rostime: {ubuntu: ros-kinetic-rostime, debian: ros-kinetic-rostime}
-rostopic: {ubuntu: ros-kinetic-rostopic, debian: ros-kinetic-bare}
+rostopic: {ubuntu: ros-kinetic-rostopic, debian: ros-kinetic-rostopic}
 rostune: {ubuntu: ros-kinetic-rostune}
 rosunit: {ubuntu: ros-kinetic-rosunit, debian: ros-kinetic-rosunit}
 rosweb: {ubuntu: ros-kinetic-rosweb}
