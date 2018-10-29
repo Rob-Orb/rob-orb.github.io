@@ -1,33 +1,33 @@
 Package: orb-core
-Version: 0.0.1-0
+Version: 0.0.1-0+nmu1
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Installed-Size: 61
 Priority: optional
 Section: base
-Filename: pool/main/o/orb-core/orb-core_0.0.1-0_armhf.deb
-Size: 16174
-SHA256: 3525f515d51646cfa02e893956c34110983004921e29ba5f4a096c5429af207e
-SHA1: b38b668b28d65f6e47f74113ba20a56f87c9f5f2
-MD5sum: 0184d1340c341d5ddf961820c645f3bc
+Filename: pool/main/o/orb-core/orb-core_0.0.1-0+nmu1_armhf.deb
+Size: 16516
+SHA256: 957e9939a546ab2fd7cf82544c3bd52bfd44aabf61d21c7c657a4d5b50610e55
+SHA1: 5d50ae83bdf4036c15381bb5ad328bb998704946
+MD5sum: ccf69e68d95322f76b1f3e8d1c8e9b5d
 Description: Helper for the Raspberry Pi Rob-Orb shields
  This binary gives you the power to control different Rob-Orb shields.
 
 Package: orb-core-dbgsym
 Source: orb-core
-Version: 0.0.1-0
+Version: 0.0.1-0+nmu1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Installed-Size: 41
-Depends: orb-core (= 0.0.1-0)
+Depends: orb-core (= 0.0.1-0+nmu1)
 Priority: extra
 Section: debug
-Filename: pool/main/o/orb-core/orb-core-dbgsym_0.0.1-0_armhf.deb
-Size: 27812
-SHA256: ee6ec84e810cc6cfa1be31607dfd3372558c478449662994b374b0ad045cf91b
-SHA1: 26f6462b3900cfb61555e3e4b1cefb59ec3f689c
-MD5sum: 879891719a402663a2d1a544a42bf4ba
+Filename: pool/main/o/orb-core/orb-core-dbgsym_0.0.1-0+nmu1_armhf.deb
+Size: 27806
+SHA256: 2228be24d027cbd879f0c468f3e6d036ff95e47fb3af1416a8734ae5b76d62ad
+SHA1: f9b7ab21ae54bea4d17abb470a088934dbf1cb9b
+MD5sum: c0c07e3724771aa92323c20c993ad00d
 Description: Debug symbols for orb-core
 Build-Ids: 9800f3452977d6838d32d4a25c3b44ec348acc93
 
