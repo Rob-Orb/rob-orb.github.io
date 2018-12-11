@@ -66,38 +66,38 @@ Description: Debug symbols for orb-motor
 Build-Ids: 849e4de6cb7d34e5d3f86d98abd6ca4e380f96df
 
 Package: orb-upload
-Version: 0.0.1-0+nmu1
+Version: 0.0.1-0+nmu2
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Installed-Size: 64
 Depends: orb-core, picberry
 Priority: optional
 Section: base
-Filename: pool/main/o/orb-upload/orb-upload_0.0.1-0+nmu1_armhf.deb
-Size: 17548
-SHA256: 68e7e960e035ca0c67cb4866eaff3651eac7c9200d602f29763af96fc8bf9272
-SHA1: 9c3216d04cba5ab02be85bb23283099cb542bb74
-MD5sum: c4339429c857ad582463436ea276676c
+Filename: pool/main/o/orb-upload/orb-upload_0.0.1-0+nmu2_armhf.deb
+Size: 17546
+SHA256: 674c92ee63fcb8c5669540efdb05cbbb58c0a719a8cad9ed4a6c70b2e3e685a7
+SHA1: ca54f88e45a85334efc3c5d1095915b990aedae6
+MD5sum: d687c10a99e9707e6661343c56e1441e
 Description: Orb Application to upload firmware to PIC
  This binary gives you the power to control different Rob-Orb shields.
 
 Package: orb-upload-dbgsym
 Source: orb-upload
-Version: 0.0.1-0+nmu1
+Version: 0.0.1-0+nmu2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
-Installed-Size: 47
-Depends: orb-upload (= 0.0.1-0+nmu1)
+Installed-Size: 46
+Depends: orb-upload (= 0.0.1-0+nmu2)
 Priority: extra
 Section: debug
-Filename: pool/main/o/orb-upload/orb-upload-dbgsym_0.0.1-0+nmu1_armhf.deb
-Size: 32924
-SHA256: d5d69f422a328745c5dd28fa43b23b5149e09d7abe24839c4a6f108ae1d9bfcb
-SHA1: a4df4e8b5915b94e4a7a1d2b3e5499c005d59b2b
-MD5sum: 6ae87e7d771de999826aaa225c780b3e
+Filename: pool/main/o/orb-upload/orb-upload-dbgsym_0.0.1-0+nmu2_armhf.deb
+Size: 31992
+SHA256: 35f57eb83c30beb431e16e6208cea03d14685f72f0280b07fc0e8825fa86479d
+SHA1: 1ad53cf72f8ffcb95fb0813880025e8b549901d9
+MD5sum: 86721dbdee5ce9d1de29f091ea1c7652
 Description: Debug symbols for orb-upload
-Build-Ids: 7d4fda35163adbaaaf1725d9fc9dadadde53c8fc
+Build-Ids: ff22d5531d84b59cec4b44b3cb43e702f17d2fc3
 
 Package: picberry
 Version: 1.0.0-1
