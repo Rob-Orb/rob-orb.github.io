@@ -32,38 +32,38 @@ Description: Debug symbols for orb-core
 Build-Ids: 9800f3452977d6838d32d4a25c3b44ec348acc93
 
 Package: orb-motor
-Version: 0.0.1-0+nmu1
+Version: 0.0.2-1
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
 Installed-Size: 60
 Depends: orb-core, wiringpi
 Priority: optional
 Section: base
-Filename: pool/main/o/orb-motor/orb-motor_0.0.1-0+nmu1_armhf.deb
-Size: 16284
-SHA256: 23fce57ba7a0e7b3f25911a674eefd7612fb2a4d024834d622802bd4940f6d0d
-SHA1: 638729ab5b1e043c5954e5a76974859c7746cecb
-MD5sum: eb340c813d952cb9e5892793496650aa
+Filename: pool/main/o/orb-motor/orb-motor_0.0.2-1_armhf.deb
+Size: 16910
+SHA256: eed5ec4ad1ffa4b40a1285758d64a47fb260caaea54635fb31f52f7b3a3e5b71
+SHA1: 7d04ac4a417bc90c4f17f08a61ca4e97c8101397
+MD5sum: d5a2562ba8ccfb752f930cf7c60c5db5
 Description: Orb Application to control the motors
  This binary gives you the power to control different Rob-Orb shields.
 
 Package: orb-motor-dbgsym
 Source: orb-motor
-Version: 0.0.1-0+nmu1
+Version: 0.0.2-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ulysse Vautier <ulysse.vautier@gmail.com>
-Installed-Size: 30
-Depends: orb-motor (= 0.0.1-0+nmu1)
+Installed-Size: 32
+Depends: orb-motor (= 0.0.2-1)
 Priority: extra
 Section: debug
-Filename: pool/main/o/orb-motor/orb-motor-dbgsym_0.0.1-0+nmu1_armhf.deb
-Size: 17034
-SHA256: 7512e6588d4cbf0d7d0b82e55569daea2c197785b4a84ac85c583f9f4f75b8f8
-SHA1: 15ef14591b70e1cef4cfeb7fdfdca87ffd359f81
-MD5sum: a8f36be38ba299641600fad0e352322d
+Filename: pool/main/o/orb-motor/orb-motor-dbgsym_0.0.2-1_armhf.deb
+Size: 18940
+SHA256: b9645d19d7aa4b7e06548ca8a86d27a12921868ee42052350caa61b70cbae892
+SHA1: 13d9fbc4e8249593ca4fc37cf2521f48b66f1d7c
+MD5sum: b557a57c6c53cf421c9698997f1ece89
 Description: Debug symbols for orb-motor
-Build-Ids: bf4ba6e45a3e9adc6a7a10d0d29ee6cc151fd9da
+Build-Ids: 849e4de6cb7d34e5d3f86d98abd6ca4e380f96df
 
 Package: orb-upload
 Version: 0.0.1-0+nmu1
